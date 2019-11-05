@@ -1,16 +1,18 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
+import SplitLayout from './components/SplitLayout';
+
 import './assets/stylesheets/application.scss'
 import icon from './assets/images/HotZone.jpg'
 
-const Index = () => {
+const Container = () => {
   return(
-    <div>
-      <div>Hello React!</div>
+    <div className="container-1">
+      <SplitLayout />
       <img src={icon} />
     </div>
   );
 };
 
-ReactDOM.render(<Index />, document.getElementById("index"));
+ReactDOM.render(<Container />, document.getElementById("index"));
