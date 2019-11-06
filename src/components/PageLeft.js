@@ -3,7 +3,12 @@ import ReactDOM from "react-dom";
 
 class PageLeft extends React.Component {
   render () {
-    return <div className="page page-left">PageLeft</div>
+    return(
+      <div className="page page-left">
+        <div className="page-inner">
+        </div>
+      </div>
+    )
   }
 }
 

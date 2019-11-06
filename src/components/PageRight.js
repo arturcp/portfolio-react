@@ -1,9 +1,19 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
+import SocialMedia from "./SocialMedia";
+import Biography from "./speaker/Biography";
+
 class PageRight extends React.Component {
   render () {
-    return <div className="page page-right">PageRight</div>
+    return(
+      <div className="page page-right">
+        <div className="page-inner">
+          <SocialMedia />
+          <Biography />
+        </div>
+      </div>
+    )
   }
 }
 
