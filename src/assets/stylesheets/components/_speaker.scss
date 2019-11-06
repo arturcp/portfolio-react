@@ -1,0 +1,68 @@
+.page-right .pure-g [class*=pure-u] {
+  letter-spacing: 0;
+  font-family: 'Lato', Calibri, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 1em;
+}
+
+.page-right .first-paragraph {
+	margin-top: 0;
+  color: #efc94c;
+  font-weight: bold;
+}
+
+.page-right p a {
+  color: #c6fff2;
+}
+
+.page-right p.first-paragraph a {
+  color: #efc94c;
+}
+
+.conference-icon {
+  float: left;
+  margin-right: 10px;
+}
+
+.conference-icon img {
+  width: 82px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.margin-100 {
+  margin-top: 100px;
+}
+
+@media screen and (max-width: 768px) {
+  .margin-100 {
+    margin-left: 45px;
+  }
+
+  .polaroids {
+    padding-left: 10px;
+  }
+}
+
+.promo-image {
+  width: 230px;
+}
+
+@media screen and (min-width: 600px) {
+  .promo-image {
+    width: 100%;
+  }
+
+  .conference-icon img {
+    width: 85px;
+  }
+}
+
+.embeded-slides {
+  margin: 25px 5px;
+}
+
+.event .pure-g .pure-u-lg-4-5,
+.content-inner .pure-g .pure-u-lg-4-5 {
+  padding-left: 20px;
+}
