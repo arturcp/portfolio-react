@@ -3,10 +3,9 @@ import ReactDom from "react-dom";
 
 class Icon extends React.Component {
   image() {
-    const extension = this.props.name === "Location" ? "svg" : "png",
-          fileName = this.props.name.toLowerCase();
+    const fileName = this.props.name.toLowerCase();
 
-    return require(`../../../assets/images/conferences/icons/${fileName}.${extension}`);
+    return require(`../../../assets/images/conferences/icons/${fileName}.png`);
   }
 
   render() {

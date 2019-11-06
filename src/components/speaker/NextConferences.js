@@ -3,6 +3,10 @@ import ReactDOM from "react-dom";
 
 import Calendar from "./conference/Calendar";
 import Icon from "./conference/Icon";
+import Promo from "./conference/Promo";
+import Location from "./conference/Location";
+import Website from "./conference/Website";
+import Tickets from "./conference/Tickets";
 
 class NextConferences extends React.Component {
   constructor(props) {
@@ -21,7 +25,7 @@ class NextConferences extends React.Component {
             "The first talk will be given on Vilnius, Lithuania, on November 13. The second on Kiev, Ukraine, on November 18."
           ],
           promo: {
-            image: "/img/conferences/2019-build-stuff/build-stuff-19.png",
+            image: "2019-build-stuff/build-stuff-19.png",
             alt: "Astronomy",
             class: "build-stuff-2019"
           },
@@ -59,30 +63,19 @@ class NextConferences extends React.Component {
             return <p key={`paragraph-${index}-${paragraphIndex}`}>{paragraph}</p>
           })}
 
-          if (conference.promo) {
-            <section className="text-center">
-              <img src={conference.promo.image} className={`promo-image glightbox ${conference.promo.class}`} alt={conference.promo.alt} />
-            </section>
-          }
-
-          if (conference.icons.location) {
-            <Icon link={conference.icons.location.link} name="Location" />
-          }
-
-          if (conference.icons.website) {
-            <Icon link={conference.icons.website.link} name="Website" />
-          }
-
-          if (conference.icons.tickets) {
-            <Icon link={conference.icons.tickets.link} name="Tickets" />
-          }
+          <Promo conference={conference} />
+          <Location location={conference.icons.location} />
+          <Website website={conference.icons.website} />
+          <Tickets tickets={conference.icons.tickets} />
         </div>
       </div>
     )
   }
 
   render () {
-    const items = this.state.conferences.map(this.buildConference);
+    const items = this.state.conferences.map((conference, _index) =>
+      this.buildConference(conference)
+    );
 
     return(
       <section className="event">
