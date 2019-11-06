@@ -3,8 +3,8 @@ import ReactDOM from "react-dom";
 
 class Avatar extends React.Component {
   image() {
-    const profileImage = require(`../assets/images/profile/${this.props.type}.jpg`);
-    return profileImage;
+    const image = require(`../assets/images/profile/${this.props.type}.jpg`);
+    return image;
   }
 
   render () {

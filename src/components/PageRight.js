@@ -3,6 +3,7 @@ import ReactDOM from "react-dom";
 
 import SocialMedia from "./SocialMedia";
 import Biography from "./speaker/Biography";
+import NextConferences from "./speaker/NextConferences";
 
 class PageRight extends React.Component {
   render () {
@@ -11,6 +12,7 @@ class PageRight extends React.Component {
         <div className="page-inner">
           <SocialMedia />
           <Biography />
+          <NextConferences />
         </div>
       </div>
     )
