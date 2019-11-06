@@ -12,34 +12,30 @@ class Conference extends React.Component {
   render() {
     let conference = this.props.conference;
 
-    if (conference.status === "pending") {
-      return (
-        <div className="pure-g">
-          <Calendar month={conference.date.month} day={conference.date.day} weekDay={conference.date.weekDay} />
+    return (
+      <div className="pure-g">
+        <Calendar month={conference.date.month} day={conference.date.day} weekDay={conference.date.weekDay} />
 
-          <div className="pure-u-sm-1-1 pure-u-md-3-5 pure-u-lg-4-5">
-            <p className="first-paragraph">
-              {conference.name}
-            </p>
+        <div className="pure-u-sm-1-1 pure-u-md-3-5 pure-u-lg-4-5">
+          <p className="first-paragraph">
+            {conference.name}
+          </p>
 
-            <p className="first-paragraph">
-              {conference.talk}
-            </p>
+          <p className="first-paragraph">
+            {conference.talk}
+          </p>
 
-            {conference.paragraphs.map((paragraph, paragraphIndex) => {
-              return <p key={`paragraph-${conference-name}-${paragraphIndex}`}>{paragraph}</p>
-            })}
+          {conference.paragraphs.map((paragraph, paragraphIndex) => {
+            return <p key={`paragraph-${conference-name}-${paragraphIndex}`}>{paragraph}</p>
+          })}
 
-            <Promo conference={conference} />
-            <Location location={conference.icons.location} />
-            <Website website={conference.icons.website} />
-            <Tickets tickets={conference.icons.tickets} />
-          </div>
+          <Promo conference={conference} />
+          <Location location={conference.icons.location} />
+          <Website website={conference.icons.website} />
+          <Tickets tickets={conference.icons.tickets} />
         </div>
-      )
-    } else {
-      return null;
-    }
+      </div>
+    )
   }
 }
 

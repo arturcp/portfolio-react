@@ -5,8 +5,14 @@ import Conference from "./Conference";
 import data from '../data/conferences.json';
 
 class NextConferences extends React.Component {
+  pendingConferences() {
+    return data.conferences.filter((conference) =>
+      conference.status === "pending"
+    );
+  }
+
   render () {
-    const items = data.conferences.map((conference, index) =>
+    const conferences = this.pendingConferences().map((conference, index) =>
       <Conference conference={conference} key={`conference-${index}`}/>
     );
 
@@ -14,7 +20,7 @@ class NextConferences extends React.Component {
       <section className="event">
 				<h2>Next events</h2>
 
-        {items}
+        {conferences}
 			</section>
     )
   }
