@@ -7,9 +7,7 @@ import PageRight from "./PageRight.js";
 
 class SplitLayout extends React.Component {
   componentDidMount() {
-    require('../vendor/javascripts/modernizr.custom.js');
     require('../vendor/javascripts/cbpSplitLayout.js');
-    require('../vendor/javascripts/classie.js');
   }
 
   render () {
