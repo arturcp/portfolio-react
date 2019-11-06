@@ -24,16 +24,15 @@ module.exports = {
         use: ["style-loader", "css-loader", "sass-loader"]
       },
       {
-        test: /\.(png|jpg)$/,
+        test: /\.(ico|jpg|jpeg|png|gif)$/,
         use: "file-loader"
       },
       {
-        test: /\.svg$/,
-        exclude: /node_modules/,
-        use: {
-          loader: 'svg-react-loader'
-        }
-      }
+         test: /\.(eot|woff|woff2|ttf|svg)$/,
+         loaders: [
+           "url-loader"
+         ]
+       }
     ]
   },
   plugins: [htmlPlugin]
