@@ -5,9 +5,12 @@ import Intro from "./Intro";
 import PageLeft from "./PageLeft.js";
 import PageRight from "./PageRight.js";
 
+import {bindEvents} from './EventBinder'
+
 class SplitLayout extends React.Component {
   componentDidMount() {
     require('../vendor/javascripts/cbpSplitLayout.js');
+    bindEvents();
   }
 
   render () {

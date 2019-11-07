@@ -4,7 +4,6 @@ import ReactDOM from "react-dom";
 import './assets/stylesheets/application.scss'
 
 import SplitLayout from './components/SplitLayout';
-import GLightbox from 'glightbox';
 
 const Container = () => {
   return(
