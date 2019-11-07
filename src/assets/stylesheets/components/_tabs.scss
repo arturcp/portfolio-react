@@ -14,6 +14,10 @@
   margin-bottom: 0 !important;
 }
 
+.react-tabs__tab:focus:after {
+  background-color: transparent !important;
+}
+
 .react-tabs__tab {
   background-color: #0202023d;
 

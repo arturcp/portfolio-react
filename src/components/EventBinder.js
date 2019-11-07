@@ -24,10 +24,6 @@ export const bindEvents = (string) => {
     selectTab(profile);
   }
 
-  var myLightbox = GLightbox({
-    selector: 'glightbox'
-  });
-
   var avatars = document.querySelectorAll('[data-avatar-trigger]');
   avatars.forEach(function(avatar) {
     var elementToTrigger = avatar.getAttribute('data-avatar-trigger');
@@ -48,5 +44,11 @@ export const bindEvents = (string) => {
         }
       }
     });
+  });
+};
+
+export const bindGallery = (string) => {
+  var myLightbox = GLightbox({
+    selector: 'glightbox'
   });
 };

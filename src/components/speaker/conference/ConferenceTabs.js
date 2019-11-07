@@ -8,6 +8,8 @@ import Conference from "../Conference";
 import Polaroids from "./Polaroids";
 import Promo from "./Promo";
 
+import {bindGallery} from '../../EventBinder'
+
 class ConferenceTabs extends React.Component {
   photosTab() {
     if (this.props.conference.photos && this.props.conference.photos.length > 0) {
@@ -48,7 +50,7 @@ class ConferenceTabs extends React.Component {
   photos() {
     if (this.props.conference.photos && this.props.conference.photos.length > 0) {
       return(
-        <TabPanel>
+        <TabPanel forceRender={true}>
           <Polaroids conference={this.props.conference} />
         </TabPanel>
       );
@@ -73,7 +75,7 @@ class ConferenceTabs extends React.Component {
     let conference = this.props.conference;
 
     return(
-      <Tabs>
+      <Tabs onSelect={index => bindGallery()}>
         <TabList>
           <Tab>Conference</Tab>
           {this.videoTab()}
