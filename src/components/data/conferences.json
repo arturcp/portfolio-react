@@ -356,6 +356,28 @@
         { "url": "all-speakers.jpg", "title":"All speakers" },
         { "url": "hands-up.jpg", "title":"Hands up!" }
       ]
+    },
+    {
+      "name": "Vizir Talks 2017",
+      "talk": "Moving from a Monolithic to a Microservices Architecture",
+      "status": "done",
+      "folder": "",
+      "date": {
+        "month": "May",
+        "day": "29",
+        "weekDay": "Monday"
+      },
+      "paragraphs": [
+        "This talk was a revival of the one given on ConFoo and was presented in Portuguese."
+      ],
+      "icons": {
+        "location": {
+          "url": "https://www.google.com.br/maps/place/Vizir+Software+Studio/@-23.5431401,-46.6440379,15z/data=!4m5!3m4!1s0x0:0x1e7e41ca0e0fddf3!8m2!3d-23.5431401!4d-46.6440379"
+        },
+        "website": {
+          "url": "http://vizir.com.br/"
+        }
+      }
     }
   ]
 }
