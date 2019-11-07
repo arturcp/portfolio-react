@@ -30,9 +30,12 @@ class Conference extends React.Component {
           })}
 
           <Promo conference={conference} />
-          <Location location={conference.icons.location} />
-          <Website website={conference.icons.website} />
-          <Tickets tickets={conference.icons.tickets} />
+
+          <section className="icons-container">
+            <Location location={conference.icons.location} />
+            <Website website={conference.icons.website} />
+            <Tickets tickets={conference.icons.tickets} />
+          </section>
         </div>
       </div>
     )

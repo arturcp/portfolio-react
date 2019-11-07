@@ -20,8 +20,8 @@
 }
 
 .conference-icon {
-  float: left;
   margin-right: 10px;
+  display: inline-block;
 }
 
 .conference-icon img {
@@ -44,15 +44,7 @@
   }
 }
 
-.promo-image {
-  width: 230px;
-}
-
 @media screen and (min-width: 600px) {
-  .promo-image {
-    width: 100%;
-  }
-
   .conference-icon img {
     width: 85px;
   }
@@ -65,4 +57,9 @@
 .event .pure-g .pure-u-lg-4-5,
 .content-inner .pure-g .pure-u-lg-4-5 {
   padding-left: 20px;
+}
+
+.icons-container {
+  text-align: center;
+  margin-top: 10px;
 }
