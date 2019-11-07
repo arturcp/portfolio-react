@@ -1,7 +1,7 @@
 /* source: https://alligator.io/css/collapsible/ */
 
 .wrap-collabsible {
-  margin-bottom: 5px;
+  margin-bottom: 15px;
   position: relative;
 }
 
@@ -13,7 +13,6 @@ input[type='checkbox'] {
   display: block;
 
   padding: 1rem;
-  margin-bottom: 10px;
 
   cursor: pointer;
 
@@ -56,6 +55,8 @@ input[type='checkbox'] {
 .toggle:checked + .lbl-toggle {
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
+  background-color: $collapsible-conference-background-color;
+  border: none;
 }
 
 .collapsible-content .content-inner {
@@ -77,4 +78,9 @@ input[type='checkbox'] {
   .toggle:checked + .lbl-toggle + .collapsible-content {
     max-height: 8000px;
   }
+}
+
+.collapsible-content .content-inner {
+  background-color: $collapsible-conference-background-color;
+  border-radius: 5px;
 }

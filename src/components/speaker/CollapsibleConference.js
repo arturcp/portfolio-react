@@ -4,27 +4,12 @@ import ReactDom from "react-dom";
 import MediaInformation from "./conference/MediaInformation";
 import Conference from "./Conference";
 import Polaroids from "./conference/Polaroids";
+import ConferenceTabs from "./conference/ConferenceTabs";
 import {parameterize} from '../Utils'
 
 class CollapsibleConference extends React.Component {
   collapsibleId() {
     return `collapsible-${parameterize(this.props.conference.name)}`
-  }
-
-  iframeVideo() {
-    if (this.props.conference.video) {
-      return(<iframe className="talk-video" src={this.props.conference.video} frameBorder="0" allowFullScreen></iframe>);
-    } else {
-      return null;
-    }
-  }
-
-  photos() {
-    if (this.props.conference.photos && this.props.conference.photos.length > 0) {
-      return(<Polaroids conference={this.props.conference} />);
-    } else {
-      return null;
-    }
   }
 
   render() {
@@ -39,11 +24,7 @@ class CollapsibleConference extends React.Component {
 
         <div className="collapsible-content">
           <div className="content-inner">
-						<h3>{conference.name}</h3>
-            <Conference conference={conference} key={this.collapsibleId()} />
-
-            {this.iframeVideo()}
-            {this.photos()}
+            <ConferenceTabs conference={conference} collapsibleId={this.collapsibleId()} />
           </div>
         </div>
       </div>

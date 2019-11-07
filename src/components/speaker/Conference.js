@@ -6,6 +6,14 @@ import Icons from "./conference/Icons";
 import Promo from "./conference/Promo";
 
 class Conference extends React.Component {
+  promo() {
+    if (this.props.conference.status === "pending") {
+      return(<Promo conference={this.props.conference} />);
+    } else {
+      return null;
+    }
+  }
+
   render() {
     let conference = this.props.conference;
 
@@ -26,7 +34,7 @@ class Conference extends React.Component {
             return <p key={`paragraph-${conference-name}-${paragraphIndex}`} dangerouslySetInnerHTML={{__html: paragraph}}></p>
           })}
 
-          <Promo conference={conference} />
+          {this.promo()}
           <Icons conference={conference} />
         </div>
       </div>
