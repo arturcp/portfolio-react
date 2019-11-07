@@ -13,7 +13,7 @@ class NextConferences extends React.Component {
 
   render () {
     const conferences = this.pendingConferences().map((conference, index) =>
-      <Conference conference={conference} key={`conference-${index}`}/>
+      <Conference conference={conference} key={`conference-${index}`} />
     );
 
     return(

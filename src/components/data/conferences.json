@@ -18,8 +18,7 @@
       ],
       "promo": {
         "image": "2019-build-stuff/build-stuff-19.png",
-        "alt": "Astronomy",
-        "class": "build-stuff-2019"
+        "alt": "Astronomy"
       },
       "icons": {
         "location": {
@@ -30,6 +29,38 @@
         },
         "tickets": {
           "link": "https://www.buildstuff.lt/get-tickets"
+        }
+      }
+    },
+    {
+      "name": "The Conf 2019",
+      "talk": "Is There A Needle In The Haystack? Using Python To Narrow Down The Search For Life In Our Galaxy",
+      "status": "done",
+      "date": {
+        "month": "August",
+        "day": "17",
+        "weekDay": "Saturday"
+      },
+      "paragraphs": [
+        "The Milky Way is a spiral galaxy, but what you might not know is that life in any planet - or moon, or basically anything - that crosses one of the Galaxy's arms is (probably) doomed.",
+        "Looking for life in other planets is a herculean task, there are just too many of them. But what if we can look only into those that, like our solar system, swirls calmly around, never crossing the danger zone? That can make the task doable.",
+        "Why are the arms dangerous? Why does our sun look safe? What does it have to do with code (hint: it has something to do with Python and galpy)? Well, come aboard and see it yourself.",
+        "This talk will be done in partnership with Lucas Sampaio de Amorim."
+      ],
+      "promo": {
+        "image": "2019-the-conf/the-conf.png",
+        "alt": "Astronomy",
+        "class": "the-conf-2019"
+      },
+      "icons": {
+        "location": {
+          "link": "https://www.google.com/maps?ll=-23.557861,-46.668091&z=16&t=m&hl=en-US&gl=BR&mapclient=embed&cid=9673854410135199"
+        },
+        "website": {
+          "link": "https://www.theconf.club"
+        },
+        "tickets": {
+          "link": "https://www.eventbrite.com.br/e/the-conf-tickets-62137785790"
         }
       }
     }
