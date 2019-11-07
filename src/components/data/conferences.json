@@ -285,6 +285,46 @@
         { "url": "stage2.jpg", "title": "On stage - 2" },
         { "url": "pgday.jpg", "title": "Youse" }
       ]
+    },
+    {
+      "name": "Ruby Conf SP 2017",
+      "talk": "Real-Time Monitoring with Grafana, StatsD, and InfluxDB",
+      "status": "done",
+      "folder": "2017-ruby-conf",
+      "date": {
+        "month": "November",
+        "day": "17",
+        "weekDay": "Friday"
+      },
+      "paragraphs": [
+        "Focused on fostering the Ruby programming language and the robust community that has sprung up around it, RubyConf brings together Rubyists both established and new to discuss emerging ideas, collaborate, and socialize."
+      ],
+      "promo": {
+        "image": "promo.png",
+        "alt": "Ruby Conf 2017"
+      },
+      "icons": {
+        "location": {
+          "url": "https://www.google.com/maps?ll=-23.55797,-46.652316&z=16&t=m&hl=en-US&gl=BR&mapclient=embed&cid=1370844870729471809"
+        },
+        "website": {
+          "url": "http://eventos.locaweb.com.br/proximos-eventos/rubyconf-2017/"
+        },
+        "tickets": {
+          "url": "http://eventos.locaweb.com.br/proximos-eventos/rubyconf-2017/#inscrevase"
+        }
+      },
+      "video": "https://www.youtube.com/embed/qQ1ew5iBJvI",
+      "photos": [
+        { "url": "1.jpeg", "title": "Magic happens" },
+        { "url": "2.jpeg", "title": "I <3 Astronomy" },
+        { "url": "3.jpeg", "title": "Star dust" },
+        { "url": "4.jpeg", "title": "A Dashboard" },
+        { "url": "5.jpeg", "title": "Scrolling a dashboard" },
+        { "url": "6.jpeg", "title": "Youse!" },
+        { "url": "7.jpg", "title": "Show, don't tell" },
+        { "url": "8.jpg", "title": "On stage!" }
+      ]
     }
   ]
 }
