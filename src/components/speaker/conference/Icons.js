@@ -7,13 +7,14 @@ import Tickets from "./Tickets";
 
 class Icons extends React.Component {
   render() {
-    let conference = this.props.conference;
-    
+    let conference = this.props.conference,
+        tickets = conference.status === "pending" ? <Tickets tickets={conference.icons.tickets} /> : null;
+
     return (
       <section className="icons-container">
         <Location location={conference.icons.location} />
         <Website website={conference.icons.website} />
-        <Tickets tickets={conference.icons.tickets} />
+        {tickets}
       </section>
     )
   }
