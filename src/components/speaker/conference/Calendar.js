@@ -13,7 +13,7 @@ class Calendar extends React.Component {
                   <span>{this.props.month}</span>
                 </li>
                 <li className="date anim04c">
-                  <span className="day">{this.props.day}</span>
+                  <span>{this.props.day}</span>
                 </li>
                 <li className="day anim04c">
                   <span>{this.props.weekDay}</span>

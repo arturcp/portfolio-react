@@ -1,14 +1,14 @@
 {
   "conferences": [
     {
-      "name": "Build Stuff 2019",
+      "name": "Build Stuff 2019 Lithuania",
       "talk": "Is There A Needle In The Haystack? Using Python To Narrow Down The Search For Life In Our Galaxy",
       "status": "pending",
       "folder": "2019-build-stuff",
       "date": {
         "month": "November",
-        "day": "13 & 18",
-        "weekDay": ""
+        "day": "13",
+        "weekDay": "Wednesday"
       },
       "paragraphs": [
         "The Milky Way is a spiral galaxy, but what you might not know is that life in any planet - or moon, or basically anything - that crosses one of the Galaxy's arms is (probably) doomed.",
@@ -26,10 +26,43 @@
           "link": "https://goo.gl/maps/o3VN7GpYeAqpQ12S7"
         },
         "website": {
-          "link": "https://www.buildstuff.events"
+          "link": "https://www.buildstuff.lt/"
         },
         "tickets": {
           "link": "https://www.buildstuff.lt/get-tickets"
+        }
+      }
+    },
+    {
+      "name": "Build Stuff 2019 Ukraine",
+      "talk": "Is There A Needle In The Haystack? Using Python To Narrow Down The Search For Life In Our Galaxy",
+      "status": "pending",
+      "folder": "2019-build-stuff",
+      "date": {
+        "month": "November",
+        "day": "18",
+        "weekDay": "Monday"
+      },
+      "paragraphs": [
+        "The Milky Way is a spiral galaxy, but what you might not know is that life in any planet - or moon, or basically anything - that crosses one of the Galaxy's arms is (probably) doomed.",
+        "Looking for life in other planets is a herculean task, there are just too many of them. But what if we can look only into those that, like our solar system, swirls calmly around, never crossing the danger zone? That can make the task doable.",
+        "Why are the arms dangerous? Why does our sun look safe? What does it have to do with code (hint: it has something to do with Python and galpy)? Well, come aboard and see it yourself.",
+        "This talk will be done in partnership with <a href=\"mailto:lucassamp98@gmail.com\">Lucas Sampaio de Amorim</a>",
+        "The first talk will be given on Vilnius, Lithuania, on November 13. The second on Kiev, Ukraine, on November 18."
+      ],
+      "promo": {
+        "image": "artur.jpg",
+        "alt": "Astronomy"
+      },
+      "icons": {
+        "location": {
+          "link": "https://goo.gl/maps/pRHcCFLbvnRUbByh9"
+        },
+        "website": {
+          "link": "https://www.buildstuff.events"
+        },
+        "tickets": {
+          "link": "https://www.ukraine.buildstuff.events/get-tickets"
         }
       }
     },

@@ -32,7 +32,7 @@ class CollapsibleConference extends React.Component {
 
     return(
       <div className="wrap-collabsible">
-        <MediaInformation photos="true" video="true" />
+        <MediaInformation photos={conference.photos && conference.photos.length > 0} video={conference.video} />
 
         <input id={this.collapsibleId()} className="toggle" type="checkbox" />
         <label htmlFor={this.collapsibleId()} className="lbl-toggle">{conference.name}</label>
