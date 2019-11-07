@@ -216,6 +216,75 @@
         { "url": "trevi-fountain.jpeg", "title": "Trevi Fountain" },
         { "url": "stage.jpg", "title": "On stage" }
       ]
+    },
+    {
+      "name": "Vizir Talks 2018",
+      "talk": "How postgis changed the insurance market in Brazil",
+      "status": "done",
+      "folder": "2018-vizir-talks",
+      "date": {
+        "month": "August",
+        "day": "28",
+        "weekDay": "Tuesday"
+      },
+      "paragraphs": [
+        "We can offer a one-size-fits-all product, or we can truly understand our users and offer something valuable and customized to their needs. Geolocation is the key to learn what is going on around them to make better, user-centric decisions."
+      ],
+      "icons": {
+        "location": {
+          "url": "https://www.google.com.br/maps/place/Vizir+Software+Studio/@-23.5431401,-46.6440379,15z/data=!4m5!3m4!1s0x0:0x1e7e41ca0e0fddf3!8m2!3d-23.5431401!4d-46.6440379"
+        },
+        "website": {
+          "url": "http://vizir.com.br/"
+        }
+      },
+      "photos": [
+        { "url": "1.jpeg", "title": "Thanks for the all the fish" },
+        { "url": "4.jpeg", "title": "GIS" },
+        { "url": "5.jpeg", "title": "Look at the map" },
+        { "url": "6.jpeg", "title": "The straight line" },
+        { "url": "7.jpeg", "title": "2D or 3D?" },
+        { "url": "8.jpeg", "title": "ST_Point" },
+        { "url": "9.jpeg", "title": "Real dimensions" }
+      ]
+    },
+    {
+      "name": "PGDay.it 2018",
+      "talk": "How postgis changed the insurance market in Brazil",
+      "status": "done",
+      "folder": "2018-pgday-it",
+      "date": {
+        "month": "June",
+        "day": "29",
+        "weekDay": "Friday"
+      },
+      "paragraphs": [
+        "We can offer a one-size-fits-all product, or we can truly understand our users and offer something valuable and customized to their needs. Geolocation is the key to learn what is going on around them to make better, user-centric decisions."
+      ],
+      "icons": {
+        "location": {
+          "url": "https://www.google.com/maps/place/Via+Brus%C3%A0,+16,+37017+Lazise+VR,+It%C3%A1lia/@45.462058,10.7172656,17z/data=!3m1!4b1!4m5!3m4!1s0x4781e947511dcad1:0x98ad72ec0138fd6e!8m2!3d45.4620543!4d10.71945439"
+        },
+        "website": {
+          "url": "https://2018.pgday.it/it/blog/artur_prado"
+        },
+        "tickets": {
+          "url": "http://www.eventbee.com/v/2018pgdayit"
+        }
+      },
+      "video": "https://www.youtube.com/embed/5xZcjILTzYM",
+      "photos": [
+        { "url": "stage5.jpg", "title": "Maps" },
+        { "url": "speakers.jpg", "title": "Speakers" },
+        { "url": "elephant.jpg", "title": "The elephant" },
+        { "url": "everybody.jpg", "title": "Behaved people" },
+        { "url": "everybody2.jpg", "title": "Not so behaved anymore" },
+        { "url": "stage4.jpg", "title": "Boundaries" },
+        { "url": "pgday2.jpg", "title": "The airplane route" },
+        { "url": "stage1.jpg", "title": "On stage - 1" },
+        { "url": "stage2.jpg", "title": "On stage - 2" },
+        { "url": "pgday.jpg", "title": "Youse" }
+      ]
     }
   ]
 }
