@@ -12,7 +12,7 @@ class Website extends React.Component {
 
   render() {
     if (this.website) {
-      return <Icon link={this.website.link} name="Website" />
+      return <Icon url={this.website.url} name="Website" />
     } else {
       return null;
     }

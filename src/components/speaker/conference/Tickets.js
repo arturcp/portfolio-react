@@ -12,7 +12,7 @@ class Tickets extends React.Component {
 
   render() {
     if (this.tickets) {
-      return <Icon link={this.tickets.link} name="Tickets" />
+      return <Icon url={this.tickets.url} name="Tickets" />
     } else {
       return null;
     }

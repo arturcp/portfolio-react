@@ -11,7 +11,7 @@ class Icon extends React.Component {
   render() {
     return (
       <section className="conference-icon">
-        <a href={this.props.link} target="_blank">
+        <a href={this.props.url} target="_blank">
           <img src={this.image()} />
         </a>
         <br />

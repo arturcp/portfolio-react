@@ -23,13 +23,13 @@
       },
       "icons": {
         "location": {
-          "link": "https://goo.gl/maps/o3VN7GpYeAqpQ12S7"
+          "url": "https://goo.gl/maps/o3VN7GpYeAqpQ12S7"
         },
         "website": {
-          "link": "https://www.buildstuff.lt/"
+          "url": "https://www.buildstuff.lt/"
         },
         "tickets": {
-          "link": "https://www.buildstuff.lt/get-tickets"
+          "url": "https://www.buildstuff.lt/get-tickets"
         }
       }
     },
@@ -56,13 +56,13 @@
       },
       "icons": {
         "location": {
-          "link": "https://goo.gl/maps/pRHcCFLbvnRUbByh9"
+          "url": "https://goo.gl/maps/pRHcCFLbvnRUbByh9"
         },
         "website": {
-          "link": "https://www.buildstuff.events"
+          "url": "https://www.buildstuff.events"
         },
         "tickets": {
-          "link": "https://www.ukraine.buildstuff.events/get-tickets"
+          "url": "https://www.ukraine.buildstuff.events/get-tickets"
         }
       }
     },
@@ -88,13 +88,13 @@
       },
       "icons": {
         "location": {
-          "link": "https://www.google.com/maps?ll=-23.557861,-46.668091&z=16&t=m&hl=en-US&gl=BR&mapclient=embed&cid=9673854410135199"
+          "url": "https://www.google.com/maps?ll=-23.557861,-46.668091&z=16&t=m&hl=en-US&gl=BR&mapclient=embed&cid=9673854410135199"
         },
         "website": {
-          "link": "https://www.theconf.club"
+          "url": "https://www.theconf.club"
         },
         "tickets": {
-          "link": "https://www.eventbrite.com.br/e/the-conf-tickets-62137785790"
+          "url": "https://www.eventbrite.com.br/e/the-conf-tickets-62137785790"
         }
       },
       "video": "https://www.youtube.com/embed/1YpOqJcyLNU",
@@ -128,13 +128,13 @@
       ],
       "icons": {
         "location": {
-          "link": "https://www.google.com/maps?ll=-23.600107,-46.676907&z=13&t=m&hl=en-US&gl=BR&mapclient=embed&cid=16718293223034038456"
+          "url": "https://www.google.com/maps?ll=-23.600107,-46.676907&z=13&t=m&hl=en-US&gl=BR&mapclient=embed&cid=16718293223034038456"
         },
         "website": {
-          "link": "https://eventos.locaweb.com.br/proximos-eventos/rubyconf-brasil-2018"
+          "url": "https://eventos.locaweb.com.br/proximos-eventos/rubyconf-brasil-2018"
         },
         "tickets": {
-          "link": "https://www.sympla.com.br/rubyconf-brasil-2018__373604"
+          "url": "https://www.sympla.com.br/rubyconf-brasil-2018__373604"
         }
       },
       "photos": [
@@ -158,7 +158,7 @@
       ],
       "icons": {
         "location": {
-          "link": "https://www.google.com/maps/place/Youse/@-23.5938898,-46.6819888,17z/data=!3m1!4b1!4m5!3m4!1s0x94ce574fd8ca5b97:0xa73b01a99963f11d!8m2!3d-23.5938947!4d-46.6798001"
+          "url": "https://www.google.com/maps/place/Youse/@-23.5938898,-46.6819888,17z/data=!3m1!4b1!4m5!3m4!1s0x94ce574fd8ca5b97:0xa73b01a99963f11d!8m2!3d-23.5938947!4d-46.6798001"
         }
       },
       "photos": [
@@ -183,7 +183,7 @@
         "The art of war teaches us to rely not on the likelihood of the enemy's not coming, but on our own readiness to receive him; not on the chance of his not attacking, but rather on the fact that we have made our position unassailable. The question is: is there such thing as an unbreakable code?",
         "This talk walks through the history of Cryptography and the slippery balance between code makers and code breakers. Let's see how each side had the upper hand at different times and explain the most famous ciphers and the process to break them. It expects no previous knowledge on the subject and will work as an entry point to those how may be intrigued enough to pursue the mysterious path of ciphers and codes.",
         "",
-        "This presentation was also <a href=\"https://www.infoq.com/br/presentations/the-histtory-of-cryptography/\">published on InfoQ</a>"
+        "This presentation was also <a href=\"https://www.infoq.com/br/presentations/the-histtory-of-cryptography/\" target=\"_blank\">published on InfoQ</a>"
       ],
       "promo": {
         "image": "promo.jpg",
@@ -191,13 +191,13 @@
       },
       "icons": {
         "location": {
-          "link": "https://www.google.com/maps?ll=-23.557861,-46.668091&z=16&t=m&hl=en-US&gl=BR&mapclient=embed&cid=9673854410135199"
+          "url": "https://www.google.com/maps?ll=-23.557861,-46.668091&z=16&t=m&hl=en-US&gl=BR&mapclient=embed&cid=9673854410135199"
         },
         "website": {
-          "link": "https://www.theconf.club/"
+          "url": "https://www.theconf.club/"
         },
         "tickets": {
-          "link": "https://www.eventbrite.com.br/e/the-conf-tickets-47222303180"
+          "url": "https://www.eventbrite.com.br/e/the-conf-tickets-47222303180"
         }
       },
       "video": "https://www.youtube.com/embed/ZmbbPh71CcM",

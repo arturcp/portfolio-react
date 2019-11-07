@@ -12,7 +12,7 @@ class Location extends React.Component {
 
   render() {
     if (this.location) {
-      return <Icon link={this.location.link} name="Location" />
+      return <Icon url={this.location.url} name="Location" />
     } else {
       return null;
     }
