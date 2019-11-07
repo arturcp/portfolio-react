@@ -18,7 +18,8 @@ class NextConferences extends React.Component {
 
     return(
       <section className="event">
-				<h2>Next events</h2>
+        <br />
+        <h2>Next events</h2>
 
         {conferences}
 			</section>
