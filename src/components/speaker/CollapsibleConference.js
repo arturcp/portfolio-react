@@ -32,7 +32,7 @@ class CollapsibleConference extends React.Component {
           <div className="content-inner">
 						<h3>{conference.name}</h3>
             <Conference conference={conference} key={this.collapsibleId()} />
-
+            {this.iframeVideo()}
           </div>
         </div>
       </div>
