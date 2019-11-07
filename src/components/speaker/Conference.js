@@ -2,11 +2,8 @@ import React from "react";
 import ReactDom from "react-dom";
 
 import Calendar from "./conference/Calendar";
-import Icon from "./conference/Icon";
+import Icons from "./conference/Icons";
 import Promo from "./conference/Promo";
-import Location from "./conference/Location";
-import Website from "./conference/Website";
-import Tickets from "./conference/Tickets";
 
 class Conference extends React.Component {
   render() {
@@ -30,12 +27,7 @@ class Conference extends React.Component {
           })}
 
           <Promo conference={conference} />
-
-          <section className="icons-container">
-            <Location location={conference.icons.location} />
-            <Website website={conference.icons.website} />
-            <Tickets tickets={conference.icons.tickets} />
-          </section>
+          <Icons conference={conference} />
         </div>
       </div>
     )
