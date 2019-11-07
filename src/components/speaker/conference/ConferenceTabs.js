@@ -77,7 +77,7 @@ class ConferenceTabs extends React.Component {
     return(
       <Tabs onSelect={index => bindGallery()}>
         <TabList>
-          <Tab>Conference</Tab>
+          <Tab>Description</Tab>
           {this.videoTab()}
           {this.photosTab()}
           {this.promoTab()}
