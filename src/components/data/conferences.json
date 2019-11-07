@@ -140,6 +140,82 @@
       "photos": [
         { "url": "ruby-conf-2018.jpg", "title": "Ruby Conf!" }
       ]
+    },
+    {
+      "name": "Obra do Berço 2018",
+      "talk": "The Future of Technology",
+      "status": "done",
+      "folder": "2018-obra-do-berco",
+      "date": {
+        "month": "November",
+        "day": "24",
+        "weekDay": "Saturday"
+      },
+      "paragraphs": [
+        "Technology is the wheel of change, but where is it leading us? Are we even in charge?",
+        "Let's take a look at Kevin Kelly's ideas present in the book \"Inevitable\", going through the 12 forces that will change our lives forever.",
+        "This talk will be delivered to a young audience that are under the protection of a non-profit organization called <a href=\"http://www.obradoberco.org.br/\" target=\"_blank\">Obra do Berço</a>."
+      ],
+      "icons": {
+        "location": {
+          "link": "https://www.google.com/maps/place/Youse/@-23.5938898,-46.6819888,17z/data=!3m1!4b1!4m5!3m4!1s0x94ce574fd8ca5b97:0xa73b01a99963f11d!8m2!3d-23.5938947!4d-46.6798001"
+        }
+      },
+      "photos": [
+        { "url": "1.jpg", "title": "First pic" },
+        { "url": "2.jpg", "title": "Second pic" },
+        { "url": "3.jpg", "title": "The future" }
+      ]
+    },
+    {
+      "name": "The Conf 2018",
+      "talk": "Th3 H1$tory of Cryptogr@phy",
+      "status": "done",
+      "folder": "2018-the-conf",
+      "date": {
+        "month": "September",
+        "day": "21",
+        "weekDay": "Friday"
+      },
+      "paragraphs": [
+        "Do you know the most powerful intellectual weapon ever known? Secrecy. On it depended individuals' lives and nations' survival throughout human history.",
+        "Every single transaction we do relies upon cryptography to ensure our data is private. Or, is it?",
+        "The art of war teaches us to rely not on the likelihood of the enemy's not coming, but on our own readiness to receive him; not on the chance of his not attacking, but rather on the fact that we have made our position unassailable. The question is: is there such thing as an unbreakable code?",
+        "This talk walks through the history of Cryptography and the slippery balance between code makers and code breakers. Let's see how each side had the upper hand at different times and explain the most famous ciphers and the process to break them. It expects no previous knowledge on the subject and will work as an entry point to those how may be intrigued enough to pursue the mysterious path of ciphers and codes.",
+        "",
+        "This presentation was also <a href=\"https://www.infoq.com/br/presentations/the-histtory-of-cryptography/\">published on InfoQ</a>"
+      ],
+      "promo": {
+        "image": "promo.jpg",
+        "alt": "The Conf 2018"
+      },
+      "icons": {
+        "location": {
+          "link": "https://www.google.com/maps?ll=-23.557861,-46.668091&z=16&t=m&hl=en-US&gl=BR&mapclient=embed&cid=9673854410135199"
+        },
+        "website": {
+          "link": "https://www.theconf.club/"
+        },
+        "tickets": {
+          "link": "https://www.eventbrite.com.br/e/the-conf-tickets-47222303180"
+        }
+      },
+      "video": "https://www.youtube.com/embed/ZmbbPh71CcM",
+      "photos": [
+        { "url": "time-is-ending.jpeg", "title": "The game is on" },
+        { "url": "youse.jpeg", "title": "Youse" },
+        { "url": "women.jpeg", "title": "Joan Clark" },
+        { "url": "ada-lovelace.jpeg", "title": "Code like a girl" },
+        { "url": "voldemort.jpeg", "title": "Voldemort" },
+        { "url": "challenge-accepted.jpeg", "title": "Challenge accepted" },
+        { "url": "he-won-the-challenge.jpeg", "title": "And the inner is..." },
+        { "url": "i-am-your-father.jpeg", "title": "Vader is back" },
+        { "url": "i-dare-you.jpeg", "title": "This is motivation" },
+        { "url": "key.jpeg", "title": "Key" },
+        { "url": "xkcd.jpeg", "title": "Private key" },
+        { "url": "trevi-fountain.jpeg", "title": "Trevi Fountain" },
+        { "url": "stage.jpg", "title": "On stage" }
+      ]
     }
   ]
 }
