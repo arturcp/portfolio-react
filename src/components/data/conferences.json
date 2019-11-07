@@ -4,6 +4,7 @@
       "name": "Build Stuff 2019",
       "talk": "Is There A Needle In The Haystack? Using Python To Narrow Down The Search For Life In Our Galaxy",
       "status": "pending",
+      "folder": "2019-build-stuff",
       "date": {
         "month": "November",
         "day": "13 & 18",
@@ -17,7 +18,7 @@
         "The first talk will be given on Vilnius, Lithuania, on November 13. The second on Kiev, Ukraine, on November 18."
       ],
       "promo": {
-        "image": "2019-build-stuff/build-stuff-19.png",
+        "image": "build-stuff-19.png",
         "alt": "Astronomy"
       },
       "icons": {
@@ -36,6 +37,7 @@
       "name": "The Conf 2019",
       "talk": "Is There A Needle In The Haystack? Using Python To Narrow Down The Search For Life In Our Galaxy",
       "status": "done",
+      "folder": "2019-the-conf",
       "date": {
         "month": "August",
         "day": "17",
@@ -48,7 +50,7 @@
         "This talk will be done in partnership with Lucas Sampaio de Amorim."
       ],
       "promo": {
-        "image": "2019-the-conf/the-conf.png",
+        "image": "the-conf.png",
         "alt": "Astronomy"
       },
       "icons": {
@@ -64,15 +66,15 @@
       },
       "video": "https://www.youtube.com/embed/1YpOqJcyLNU",
       "photos": [
-        { "url":"2019-the-conf/1.jpg", "title":"On stage" },
-        { "url":"2019-the-conf/2.jpg", "title":"Carl Sagan" },
-        { "url":"2019-the-conf/3.jpg", "title":"That's Lucas" },
-        { "url":"2019-the-conf/4.jpg", "title":"Speakers" },
-        { "url":"2019-the-conf/5.jpg", "title":"For Science" },
-        { "url":"2019-the-conf/6.jpg", "title":"Lucas and I" },
-        { "url":"2019-the-conf/7.jpg", "title":"Coding" },
-        { "url":"2019-the-conf/8.jpg", "title":"Speakers" },
-        { "url":"2019-the-conf/9.jpg", "title":"Lucas"}
+        { "url": "1.jpg", "title": "On stage" },
+        { "url": "2.jpg", "title": "Carl Sagan" },
+        { "url": "3.jpg", "title": "That's Lucas" },
+        { "url": "4.jpg", "title": "Speakers" },
+        { "url": "5.jpg", "title": "For Science" },
+        { "url": "6.jpg", "title": "Lucas and I" },
+        { "url": "7.jpg", "title": "Coding" },
+        { "url": "8.jpg", "title": "Speakers" },
+        { "url": "9.jpg", "title": "Lucas"}
       ]
     }
   ]
