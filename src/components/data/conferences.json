@@ -49,8 +49,7 @@
       ],
       "promo": {
         "image": "2019-the-conf/the-conf.png",
-        "alt": "Astronomy",
-        "class": "the-conf-2019"
+        "alt": "Astronomy"
       },
       "icons": {
         "location": {
@@ -63,7 +62,18 @@
           "link": "https://www.eventbrite.com.br/e/the-conf-tickets-62137785790"
         }
       },
-      "video": "https://www.youtube.com/embed/1YpOqJcyLNU"
+      "video": "https://www.youtube.com/embed/1YpOqJcyLNU",
+      "photos": [
+        { "url":"2019-the-conf/1.jpg", "title":"On stage" },
+        { "url":"2019-the-conf/2.jpg", "title":"Carl Sagan" },
+        { "url":"2019-the-conf/3.jpg", "title":"That's Lucas" },
+        { "url":"2019-the-conf/4.jpg", "title":"Speakers" },
+        { "url":"2019-the-conf/5.jpg", "title":"For Science" },
+        { "url":"2019-the-conf/6.jpg", "title":"Lucas and I" },
+        { "url":"2019-the-conf/7.jpg", "title":"Coding" },
+        { "url":"2019-the-conf/8.jpg", "title":"Speakers" },
+        { "url":"2019-the-conf/9.jpg", "title":"Lucas"}
+      ]
     }
   ]
 }

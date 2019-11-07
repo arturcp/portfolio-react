@@ -3,6 +3,7 @@ import ReactDom from "react-dom";
 
 import MediaInformation from "./conference/MediaInformation";
 import Conference from "./Conference";
+import Polaroids from "./conference/Polaroids";
 import {parameterize} from '../Utils'
 
 class CollapsibleConference extends React.Component {
@@ -12,7 +13,15 @@ class CollapsibleConference extends React.Component {
 
   iframeVideo() {
     if (this.props.conference.video) {
-      return(<iframe className="talk-video" src={this.props.conference.video} frameborder="0" allowfullscreen></iframe>);
+      return(<iframe className="talk-video" src={this.props.conference.video} frameBorder="0" allowFullScreen></iframe>);
+    } else {
+      return null;
+    }
+  }
+
+  photos() {
+    if (this.props.conference.photos && this.props.conference.photos.length > 0) {
+      return(<Polaroids conference={this.props.conference} />);
     } else {
       return null;
     }
@@ -32,7 +41,9 @@ class CollapsibleConference extends React.Component {
           <div className="content-inner">
 						<h3>{conference.name}</h3>
             <Conference conference={conference} key={this.collapsibleId()} />
+
             {this.iframeVideo()}
+            {this.photos()}
           </div>
         </div>
       </div>
