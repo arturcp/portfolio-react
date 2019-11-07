@@ -82,7 +82,7 @@ ul.polaroids a {
 
 ul.polaroids img {
   display: block;
-  width: 190px;
+  width: 165px;
   margin-bottom: 12px;
 }
 
@@ -96,6 +96,12 @@ ul.polaroids a { background: #fff; display: inline; float: left; margin: 0 0 27p
 @media screen and (max-width: 768px) {
   ul.polaroids li a {
     margin-left: 0;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 768px) {
+  ul.polaroids li a {
+    margin-right: 22px;
   }
 }
 

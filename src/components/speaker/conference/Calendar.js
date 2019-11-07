@@ -4,7 +4,7 @@ import ReactDom from "react-dom";
 class Calendar extends React.Component {
   render () {
     return(
-      <div className="pure-u-sm-1-1 pure-u-md-2-5 pure-u-lg-1-5 outer-calendar">
+      <div className="pure-u-sm-1-1 pure-u-md-1-5 pure-u-lg-1-5 outer-calendar">
         <section className="custom-calendar">
           <div className="signboard outer">
             <div className="signboard front inner anim04c">

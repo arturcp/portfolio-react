@@ -21,7 +21,7 @@ class Conference extends React.Component {
       <div className="pure-g">
         <Calendar month={conference.date.month} day={conference.date.day} weekDay={conference.date.weekDay} />
 
-        <div className="pure-u-sm-1-1 pure-u-md-3-5 pure-u-lg-4-5">
+        <div className="pure-u-sm-1-1 pure-u-md-4-5 pure-u-lg-4-5">
           <p className="first-paragraph">
             {conference.name}
           </p>

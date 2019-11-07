@@ -2,6 +2,11 @@
   position: absolute;
   right: 30px;
   top: 17px;
+
+  @media screen and (max-width: 600px) {
+    right: 15px;
+    top: 0;
+  }
 }
 
 .talk-video {
@@ -12,6 +17,7 @@
   .talk-video {
     width: 100%;
     height: 350px;
+    margin-top: 15px;
   }
 }
 

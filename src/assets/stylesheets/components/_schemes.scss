@@ -22,6 +22,10 @@
 
 	padding: 0 5px 0 80px;
   border-right: 10px solid $scheme1-secondary-color;
+
+	@media screen and (max-width: 600px) {
+		padding: 0 5px 0 60px;
+	}
 }
 
 .scheme-1 .page-right .social-media {
@@ -33,7 +37,7 @@
 	text-align: center;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 900px) {
 	.scheme-1 .page-left {
 		padding: 0 55px;
 	}

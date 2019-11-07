@@ -4,6 +4,10 @@
   border-top: 0;
   padding: 20px 25px;
   border-radius: 0 0 5px 5px;
+
+  @media screen and (max-width: 600px) {
+    min-height: 350px;
+  }
 }
 
 .react-tabs__tab-list {
@@ -12,6 +16,10 @@
 
 .react-tabs__tab {
   background-color: #0202023d;
+
+  @media screen and (max-width: 600px) {
+    font-size: 9px;
+  }
 }
 
 .react-tabs {
