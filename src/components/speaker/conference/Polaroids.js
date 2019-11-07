@@ -9,7 +9,7 @@ class Polaroids extends React.Component {
           let image = require(`../../../assets/images/conferences/${this.props.conference.folder}/${photo.url}`);
 
           return(
-            <li>
+            <li key={`conference-${this.props.conference.name}-photo-${index}`}>
               <a href={image} title={photo.title}>
                 <img src={image} className="glightbox" />
               </a>

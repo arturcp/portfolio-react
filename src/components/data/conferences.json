@@ -76,6 +76,37 @@
         { "url": "8.jpg", "title": "Speakers" },
         { "url": "9.jpg", "title": "Lucas"}
       ]
+    },
+    {
+      "name": "Ruby Conf 2018",
+      "talk": "Th3 H1$tory of Cryptogr@phy",
+      "status": "done",
+      "folder": "2018-ruby-conf",
+      "date": {
+        "month": "December",
+        "day": "13",
+        "weekDay": "Thursday"
+      },
+      "paragraphs": [
+        "Do you know the most powerful intellectual weapon ever known? Secrecy. On it depended individuals' lives and nations' survival throughout human history.",
+        "Every single transaction we do relies upon cryptography to ensure our data is private. Or, is it?",
+        "The art of war teaches us to rely not on the likelihood of the enemy's not coming, but on our own readiness to receive him; not on the chance of his not attacking, but rather on the fact that we have made our position unassailable. The question is: is there such thing as an unbreakable code?",
+        "This talk walks through the history of Cryptography and the slippery balance between code makers and code breakers. Let's see how each side had the upper hand at different times and explain the most famous ciphers and the process to break them. It expects no previous knowledge on the subject and will work as an entry point to those how may be intrigued enough to pursue the mysterious path of ciphers and codes."
+      ],
+      "icons": {
+        "location": {
+          "link": "https://www.google.com/maps?ll=-23.600107,-46.676907&z=13&t=m&hl=en-US&gl=BR&mapclient=embed&cid=16718293223034038456"
+        },
+        "website": {
+          "link": "https://eventos.locaweb.com.br/proximos-eventos/rubyconf-brasil-2018"
+        },
+        "tickets": {
+          "link": "https://www.sympla.com.br/rubyconf-brasil-2018__373604"
+        }
+      },
+      "photos": [
+        { "url": "ruby-conf-2018.jpg", "title": "Ruby Conf!" }
+      ]
     }
   ]
 }
