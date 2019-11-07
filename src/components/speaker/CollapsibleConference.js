@@ -5,7 +5,7 @@ import MediaInformation from "./conference/MediaInformation";
 import Conference from "./Conference";
 import {parameterize} from '../Utils'
 
-class PastConference extends React.Component {
+class CollapsibleConference extends React.Component {
   collapsibleId() {
     return `collapsible-${parameterize(this.props.conference.name)}`
   }
@@ -28,4 +28,4 @@ class PastConference extends React.Component {
   }
 }
 
-export default PastConference;
+export default CollapsibleConference;

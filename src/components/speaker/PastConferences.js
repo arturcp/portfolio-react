@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-import PastConference from "./PastConference";
+import CollapsibleConference from "./CollapsibleConference";
 import data from '../data/conferences.json';
 
 class PastConferences extends React.Component {
@@ -13,7 +13,7 @@ class PastConferences extends React.Component {
 
   render () {
     const conferences = this.pastConferences().map((conference, index) =>
-      <PastConference conference={conference} key={`conference-${index}`}/>
+      <CollapsibleConference conference={conference} key={`conference-${index}`}/>
     );
 
     return(
