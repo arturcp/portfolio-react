@@ -378,6 +378,36 @@
           "url": "http://vizir.com.br/"
         }
       }
+    },
+    {
+      "name": "Confoo Montreal 2017",
+      "talk": "Moving from a Monolithic to a Microservices Architecture / Real-Time Monitoring with Grafana, StatsD, and InfluxDB",
+      "status": "done",
+      "folder": "2017-confoo",
+      "date": {
+        "month": "March",
+        "day": "8/9",
+        "weekDay": "Wed / Thu"
+      },
+      "paragraphs": [
+        "As an application grows, the flexibility that inclined us to build a monolith vanishes. The once reliable system is now prone to errors, bugs leak to unexpected places and new features take a considerable time to be delivered. We can get the productivity back by moving to microservices.",
+        "Both talks were evaluated by the public with grade 4 (out of 5). Each presentation received a total of 30 forms with feedback and suggestions to be improved."
+      ],
+      "icons": {
+        "location": {
+          "url": "https://www.google.com.br/maps/place/Hotel+Bonaventure+Montr%C3%A9al/@45.4993335,-73.5649466,15z/data=!4m2!3m1!1s0x0:0x5c249de257b318c0?sa=X&ved=0ahUKEwjSk86y283VAhWCjpAKHYkeDhMQ_BIIigEwCg"
+        },
+        "website": {
+          "url": "https://confoo.ca/en/yul2017/schedule"
+        }
+      },
+      "photos": [
+        { "url": "microservices.jpg", "title": "A long time ago..." },
+        { "url": "speaker.jpg", "title": "That's me" },
+        { "url": "microservices2.jpg", "title": "Microservices" },
+        { "url": "grafana.jpeg", "title": "Grafana" },
+        { "url": "resources.jpeg", "title": "Resources" }
+      ]
     }
   ]
 }
