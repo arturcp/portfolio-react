@@ -23,7 +23,7 @@ class Conference extends React.Component {
           </p>
 
           {conference.paragraphs.map((paragraph, paragraphIndex) => {
-            return <p key={`paragraph-${conference-name}-${paragraphIndex}`}>{paragraph}</p>
+            return <p key={`paragraph-${conference-name}-${paragraphIndex}`} dangerouslySetInnerHTML={{__html: paragraph}}></p>
           })}
 
           <Promo conference={conference} />

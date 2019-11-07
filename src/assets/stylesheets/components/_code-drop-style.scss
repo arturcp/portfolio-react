@@ -26,7 +26,7 @@ body {
 }
 
 a {
-	color: #4d50c3;
+	color: $code-drop-link;
 	text-decoration: none;
 }
 
@@ -86,7 +86,7 @@ a:hover {
 	left: auto;
 	margin-left: 4px;
 	position: absolute;
-	color: #47a3da;
+	color: $code-drop-lightblue;
 	background: #fff;
 }
 
@@ -103,7 +103,7 @@ a:hover {
 	text-align: left;
 	width: 2.5em;
 	height: 2.5em;
-	background: #47a3da;
+	background: $code-drop-lightblue;
 	border-radius: 50%;
 	margin: 0 0.1em;
 	border: 3px solid #fff;
@@ -151,7 +151,7 @@ a:hover {
 }
 
 .codropsheader nav a:hover:after {
-	color: #47a3da;
+	color: $code-drop-lightblue;
 }
 
 .bp-icon-next:after {
