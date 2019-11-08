@@ -7,6 +7,7 @@ import 'react-tabs/style/react-tabs.css';
 import Conference from "../Conference";
 import Polaroids from "./Polaroids";
 import Promo from "./Promo";
+import Slides from "./Slides";
 
 import {bindGallery} from '../../EventBinder'
 
@@ -34,6 +35,15 @@ class ConferenceTabs extends React.Component {
       return null;
     }
   }
+
+  slidesTab() {
+    if (this.props.conference.slides) {
+      return(<Tab>Slides</Tab>)
+    } else {
+      return null;
+    }
+  }
+
 
   iframeVideo() {
     if (this.props.conference.video) {
@@ -71,6 +81,18 @@ class ConferenceTabs extends React.Component {
     }
   }
 
+  slide() {
+    if (this.props.conference.slides) {
+      return(
+        <TabPanel>
+          <Slides conference={this.props.conference} />
+        </TabPanel>
+      );
+    } else {
+      return null;
+    }
+  }
+
   render() {
     let conference = this.props.conference;
 
@@ -81,14 +103,17 @@ class ConferenceTabs extends React.Component {
           {this.videoTab()}
           {this.photosTab()}
           {this.promoTab()}
+          {this.slidesTab()}
         </TabList>
 
         <TabPanel>
           <Conference conference={conference} key={this.props.collapsibleId} />
         </TabPanel>
+
         {this.iframeVideo()}
         {this.photos()}
         {this.promo()}
+        {this.slide()}
       </Tabs>
     )
   }

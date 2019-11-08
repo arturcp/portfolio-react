@@ -97,6 +97,10 @@
           "url": "https://www.eventbrite.com.br/e/the-conf-tickets-62137785790"
         }
       },
+      "slides": {
+        "language": "English",
+        "deckId": "fe74096f19444cf28ebefb2479165b7a"
+      },
       "video": "https://www.youtube.com/embed/1YpOqJcyLNU",
       "photos": [
         { "url": "1.jpg", "title": "On stage" },
