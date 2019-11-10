@@ -15,3 +15,8 @@
   * https://github.com/webpack/webpack/issues/512
   * https://github.com/webpack-contrib/imports-loader
   * https://github.com/webpack-contrib/exports-loader
+
+* Flags:
+  * https://www.npmjs.com/package/react-flag-icon-css
+  * https://github.com/lipis/flag-icon-css
+  * http://flag-icon-css.lip.is/

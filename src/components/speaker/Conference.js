@@ -5,10 +5,53 @@ import Calendar from "./conference/Calendar";
 import Icons from "./conference/Icons";
 import Promo from "./conference/Promo";
 
+import FlagIcon from '../FlagIcon.js'
+
 class Conference extends React.Component {
   promo() {
     if (this.props.conference.status === "pending") {
       return(<Promo conference={this.props.conference} />);
+    } else {
+      return null;
+    }
+  }
+
+  location() {
+    const conference = this.props.conference
+
+    if (conference.city && conference.country) {
+      let flag = "";
+      if (conference.flag) {
+        flag = <FlagIcon code={conference.flag} size="lg" />;
+      }
+
+      return(
+        <div className="information-group">
+          {flag}
+          {conference.city} - {conference.country}
+        </div>
+      )
+    } else {
+      return null;
+    }
+  }
+
+  language() {
+    const conference = this.props.conference;
+
+    if (conference.language) {
+      const codes = {
+        "English": "us",
+        "Italian": "it",
+        "Portuguese": "br"
+      }
+
+      return (
+        <div className="information-group">
+          <FlagIcon code={codes[conference.language]} size="lg" />
+          Language: {conference.language}
+        </div>
+      )
     } else {
       return null;
     }
@@ -30,7 +73,8 @@ class Conference extends React.Component {
             {conference.talk}
           </p>
 
-          <span>Language:</span> <span>{conference.language}</span>
+          {this.location()}
+          {this.language()}
 
           {conference.paragraphs.map((paragraph, paragraphIndex) => {
             return <p key={`paragraph-${conference-name}-${paragraphIndex}`} dangerouslySetInnerHTML={{__html: paragraph}}></p>

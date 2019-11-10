@@ -1,7 +1,10 @@
 {
   "conferences": [
     {
-      "name": "Build Stuff 2019 Lithuania",
+      "name": "Build Stuff 2019 - Lithuania",
+      "city": "Vilnius",
+      "country": "Lithuania",
+      "flag": "lt",
       "talk": "Is There A Needle In The Haystack? Using Python To Narrow Down The Search For Life In Our Galaxy",
       "status": "pending",
       "folder": "2019-build-stuff",
@@ -35,7 +38,10 @@
       }
     },
     {
-      "name": "Build Stuff 2019 Ukraine",
+      "name": "Build Stuff 2019 - Ukraine",
+      "city": "Kiev",
+      "country": "Ukraine",
+      "flag": "ua",
       "talk": "Is There A Needle In The Haystack? Using Python To Narrow Down The Search For Life In Our Galaxy",
       "status": "pending",
       "folder": "2019-build-stuff",
@@ -70,6 +76,9 @@
     },
     {
       "name": "The Conf 2019",
+      "city": "São Paulo",
+      "country": "Brazil",
+      "flag": "br",
       "talk": "Is There A Needle In The Haystack? Using Python To Narrow Down The Search For Life In Our Galaxy",
       "status": "done",
       "folder": "2019-the-conf",
@@ -118,6 +127,9 @@
     },
     {
       "name": "Ruby Conf 2018",
+      "city": "São Paulo",
+      "country": "Brazil",
+      "flag": "br",
       "talk": "Th3 H1$tory of Cryptogr@phy",
       "status": "done",
       "folder": "2018-ruby-conf",
@@ -150,6 +162,9 @@
     },
     {
       "name": "Obra do Berço 2018",
+      "city": "São Paulo",
+      "country": "Brazil",
+      "flag": "br",
       "talk": "The Future of Technology",
       "status": "done",
       "folder": "2018-obra-do-berco",
@@ -177,6 +192,9 @@
     },
     {
       "name": "The Conf 2018",
+      "city": "São Paulo",
+      "country": "Brazil",
+      "flag": "br",
       "talk": "Th3 H1$tory of Cryptogr@phy",
       "status": "done",
       "folder": "2018-the-conf",
@@ -228,6 +246,9 @@
     },
     {
       "name": "Vizir Talks 2018",
+      "city": "São Paulo",
+      "country": "Brazil",
+      "flag": "br",
       "talk": "How postgis changed the insurance market in Brazil",
       "status": "done",
       "folder": "2018-vizir-talks",
@@ -260,6 +281,9 @@
     },
     {
       "name": "PGDay.it 2018",
+      "city": "Lazise",
+      "country": "Italy",
+      "flag": "it",
       "talk": "How postgis changed the insurance market in Brazil",
       "status": "done",
       "folder": "2018-pgday-it",
@@ -298,7 +322,10 @@
       ]
     },
     {
-      "name": "Ruby Conf SP 2017",
+      "name": "Ruby Conf 2017",
+      "city": "São Paulo",
+      "country": "Brazil",
+      "flag": "br",
       "talk": "Real-Time Monitoring with Grafana, StatsD, and InfluxDB",
       "status": "done",
       "folder": "2017-ruby-conf",
@@ -340,6 +367,9 @@
     },
     {
       "name": "The Conf 2017",
+      "city": "São Paulo",
+      "country": "Brazil",
+      "flag": "br",
       "talk": "Real-Time Monitoring with Grafana, StatsD, and InfluxDB",
       "status": "done",
       "folder": "2017-the-conf",
@@ -394,7 +424,10 @@
       }
     },
     {
-      "name": "Confoo Montreal 2017",
+      "name": "Confoo 2017",
+      "city": "Montreal",
+      "country": "Brazil",
+      "flag": "ca",
       "talk": "Moving from a Monolithic to a Microservices Architecture / Real-Time Monitoring with Grafana, StatsD, and InfluxDB",
       "status": "done",
       "folder": "2017-confoo",
