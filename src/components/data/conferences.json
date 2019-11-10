@@ -155,6 +155,9 @@
         "url": "https://www.sympla.com.br/rubyconf-brasil-2018__373604"
       }
     },
+    "slides": {
+      "deckId": "b0530695a430476b82e57912cc0a0eb2"
+    },
     "photos": [
       { "url": "ruby-conf-2018.jpg", "title": "Ruby Conf!" }
     ]
@@ -226,6 +229,9 @@
         "url": "https://www.eventbrite.com.br/e/the-conf-tickets-47222303180"
       }
     },
+    "slides": {
+      "deckId": "bbab6edc8aca45af9fec6d18f6fbac62"
+    },
     "video": "https://www.youtube.com/embed/ZmbbPh71CcM",
     "photos": [
       { "url": "time-is-ending.jpeg", "title": "The game is on" },
@@ -272,6 +278,9 @@
         "url": "http://vizir.com.br/"
       }
     },
+    "slides": {
+      "deckId": "6be107a5b9474d4ea9b54a7d9d07c409"
+    },
     "photos": [
       { "url": "1.jpeg", "title": "Thanks for the all the fish" },
       { "url": "4.jpeg", "title": "GIS" },
@@ -313,6 +322,9 @@
       "tickets": {
         "url": "http://www.eventbee.com/v/2018pgdayit"
       }
+    },
+    "slides": {
+      "deckId": "58f0863179e64300b3f67fd5569200a1"
     },
     "video": "https://www.youtube.com/embed/5xZcjILTzYM",
     "photos": [
@@ -362,6 +374,9 @@
         "url": "http://eventos.locaweb.com.br/proximos-eventos/rubyconf-2017/#inscrevase"
       }
     },
+    "slides": {
+      "deckId": "c09b884b3cec4a9d9f3b4b72dadb256f"
+    },
     "video": "https://www.youtube.com/embed/qQ1ew5iBJvI",
     "photos": [
       { "url": "1.jpeg", "title": "Magic happens" },
@@ -402,6 +417,9 @@
         "url": "http://www.theconf.club/"
       }
     },
+    "slides": {
+      "deckId": "494dd5bb32be48febfae8af99c7afd8e"
+    },
     "video": "https://www.youtube.com/embed/1kOpbXFGBuI",
     "photos": [
       { "url": "on-stage.jpg", "title":"On stage" },
@@ -437,6 +455,9 @@
       "website": {
         "url": "http://vizir.com.br/"
       }
+    },
+    "slides": {
+      "deckId": "d7eec275080e4b3193ca75cd6f6c063f"
     }
   },
   {
@@ -467,6 +488,9 @@
       "website": {
         "url": "https://confoo.ca/en/yul2017/schedule"
       }
+    },
+    "slides": {
+      "deckId": "7cdeb90cc28545ee8739d3ab179d6b8d"
     },
     "photos": [
       { "url": "microservices.jpg", "title": "A long time ago..." },
