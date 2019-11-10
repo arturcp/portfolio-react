@@ -3,10 +3,12 @@ import ReactDOM from "react-dom";
 
 class Collapsible extends React.Component {
   render() {
+    let id = `collapsible-${this.props.id}`
+
     return(
       <div className="wrap-collabsible">
-      	<input id="collapsible-about" className="toggle" type="checkbox" defaultChecked />
-			  <label htmlFor="collapsible-about" className="lbl-toggle">{this.props.title}</label>
+      	<input id={id} className="toggle" type="checkbox" defaultChecked />
+			  <label htmlFor={id} className="lbl-toggle">{this.props.title}</label>
 			  <div className="collapsible-content">
 			    <div className="content-inner">
             {this.props.children}

@@ -1,16 +1,16 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-import Collapsible from "./developer/Collapsible";
+import About from "./developer/About";
+import Skills from "./developer/Skills";
 
 class PageLeft extends React.Component {
   render () {
     return(
       <div className="page page-left">
         <div className="page-inner">
-          <Collapsible title="Artur" defaultChecked="checked">
-            teste
-          </Collapsible>
+          <About />
+          <Skills />
         </div>
       </div>
     )
