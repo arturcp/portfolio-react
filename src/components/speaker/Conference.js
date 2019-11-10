@@ -6,6 +6,8 @@ import Icons from "./conference/Icons";
 import Promo from "./conference/Promo";
 import FlagIcon from '../FlagIcon.js'
 
+import {parameterize, writeParagraphs} from '../Utils'
+
 class Conference extends React.Component {
   promo() {
     if (this.props.conference.status === "pending") {
@@ -57,7 +59,7 @@ class Conference extends React.Component {
   }
 
   render() {
-    let conference = this.props.conference;
+    const conference = this.props.conference;
 
     return (
       <div className="pure-g">
@@ -75,9 +77,7 @@ class Conference extends React.Component {
           {this.location()}
           {this.language()}
 
-          {conference.paragraphs.map((paragraph, paragraphIndex) => {
-            return <p key={`paragraph-${conference-name}-${paragraphIndex}`} dangerouslySetInnerHTML={{__html: paragraph}}></p>
-          })}
+          {writeParagraphs(conference.name, conference.paragraphs)}
 
           {this.promo()}
           <Icons conference={conference} />

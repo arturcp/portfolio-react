@@ -11,7 +11,7 @@ class Slides extends React.Component {
     script.setAttribute("data-ratio", "1.77777777777778");
     script.async = true;
 
-    let container = document.querySelector(`#${this.props.collapsibleId}-slides`)
+    const container = document.querySelector(`#${this.props.collapsibleId}-slides`)
     container.appendChild(script);
   }
 

@@ -4,6 +4,7 @@ import ReactDOM from "react-dom";
 import About from "./developer/About";
 import Skills from "./developer/Skills";
 import Projects from "./developer/Projects";
+import WorkingExperiences from "./developer/WorkingExperiences";
 
 class PageLeft extends React.Component {
   render () {
@@ -13,6 +14,7 @@ class PageLeft extends React.Component {
           <About />
           <Skills />
           <Projects />
+          <WorkingExperiences />
         </div>
       </div>
     )

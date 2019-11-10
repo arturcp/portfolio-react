@@ -12,7 +12,7 @@ class Promo extends React.Component {
 
   render() {
     if (this.promo) {
-      let promoImage = require(`../../../assets/images/conferences/${this.props.conference.folder}/${this.promo.image}`);
+      const promoImage = require(`../../../assets/images/conferences/${this.props.conference.folder}/${this.promo.image}`);
 
       return (
         <section className="text-center">

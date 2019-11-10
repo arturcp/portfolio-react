@@ -1,0 +1,32 @@
+[
+  {
+    "company": "Youse",
+    "image": "youse.png",
+    "description": {
+      "paragraphs": [
+        "Youse is a startup, a digital platform of Caixa Seguradora that aims to change how insurances are sold in Brazil. We focus on innovation and base our operation on agile methodologies."
+      ]
+    },
+    "role": "IT Specialist II",
+    "period": "Started in December 2015",
+    "urls": [
+      { "url": "http://www.youse.com.br", "text": "Official website" },
+      { "url": "http://labs.youse.com.br", "text": "Technology blog" }
+    ]
+  },
+  {
+    "company": "Editora Abril",
+    "image": "abril.jpg",
+    "description": {
+      "paragraphs": [
+        "Abril Mídia is the IT department of Abril Group, the largest magazine publisher in the country with over 300 different magazines published annually. It sells 180 million issues every year with 4 million subscriptions."
+      ]
+    },
+    "role": "Senior Web Developer",
+    "period": "From April 2008 to November 2015",
+    "urls": [
+      { "url": "http://www.abril.com.br", "text": "Official website" },
+      { "url": "http://grupoabril.com.br/en", "text": "English website" }
+    ]
+  }
+]

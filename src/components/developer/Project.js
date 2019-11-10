@@ -1,11 +1,11 @@
 import React from "react";
 import ReactDom from "react-dom";
 
-import {parameterize} from '../Utils'
+import {parameterize, writeParagraphs} from '../Utils'
 
 class Project extends React.Component {
   projectUrl() {
-      let image = require(`../../assets/images/projects/url.png`),
+      const image = require(`../../assets/images/projects/url.png`),
           project = this.props.project;
 
       if (project.url) {
@@ -20,7 +20,7 @@ class Project extends React.Component {
   }
 
   github() {
-    let image = require(`../../assets/images/projects/github.png`),
+    const image = require(`../../assets/images/projects/github.png`),
         project = this.props.project;
 
     return(
@@ -31,7 +31,7 @@ class Project extends React.Component {
   }
 
   render() {
-    let project = this.props.project;
+    const project = this.props.project;
 
     return(
       <section className="project-card">
@@ -42,9 +42,7 @@ class Project extends React.Component {
           {this.github()}
 				</p>
 
-        {project.description.paragraphs.map((paragraph, paragraphIndex) => {
-          return <p key={`paragraph-${parameterize(project.name)}-${paragraphIndex}`} dangerouslySetInnerHTML={{__html: paragraph}}></p>
-        })}
+        {writeParagraphs(project.name, project.description.paragraphs)}
 			</section>
     )
   }

@@ -94,7 +94,7 @@ class ConferenceTabs extends React.Component {
   }
 
   render() {
-    let conference = this.props.conference;
+    const conference = this.props.conference;
 
     return(
       <Tabs onSelect={index => bindGallery()}>

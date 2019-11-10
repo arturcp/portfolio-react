@@ -13,7 +13,7 @@ class CollapsibleConference extends React.Component {
   }
 
   render() {
-    let conference = this.props.conference;
+    const conference = this.props.conference;
 
     return(
       <div className="wrap-collabsible">

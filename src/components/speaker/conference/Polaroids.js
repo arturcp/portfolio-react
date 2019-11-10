@@ -6,7 +6,7 @@ class Polaroids extends React.Component {
     return(
       <ul className="polaroids large-block-grid-4 small-block-grid-2">
         {this.props.conference.photos.map((photo, index) => {
-          let image = require(`../../../assets/images/conferences/${this.props.conference.folder}/${photo.url}`);
+          const image = require(`../../../assets/images/conferences/${this.props.conference.folder}/${photo.url}`);
 
           return(
             <li key={`conference-${this.props.conference.name}-photo-${index}`}>

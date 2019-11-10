@@ -1,5 +1,8 @@
 // Source: https://stackoverflow.com/questions/32888728/correct-way-to-share-functions-between-components-in-react
 
+import React from "react";
+import ReactDom from "react-dom";
+
 export const parameterize = (string) => {
    return string.trim().toLowerCase().replace(/[^a-zA-Z0-9 -]/, "").replace(/\s/g, "-");
 };
@@ -22,4 +25,10 @@ export const inGroupsOf = (array, number, fillWith) => {
       slices.push(s);
   }
   return slices;
+};
+
+export const writeParagraphs = (resourceName, paragraphs) => {
+  return paragraphs.map((paragraph, paragraphIndex) => {
+    return <p key={`paragraph-${parameterize(resourceName)}-${paragraphIndex}`} dangerouslySetInnerHTML={{__html: paragraph}}></p>
+  })
 };
