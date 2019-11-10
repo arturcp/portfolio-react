@@ -84,8 +84,8 @@ class ConferenceTabs extends React.Component {
   slide() {
     if (this.props.conference.slides) {
       return(
-        <TabPanel>
-          <Slides conference={this.props.conference} />
+        <TabPanel forceRender={false}>
+          <Slides conference={this.props.conference} collapsibleId={this.props.collapsibleId} />
         </TabPanel>
       );
     } else {

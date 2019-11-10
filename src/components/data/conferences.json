@@ -5,6 +5,7 @@
       "talk": "Is There A Needle In The Haystack? Using Python To Narrow Down The Search For Life In Our Galaxy",
       "status": "pending",
       "folder": "2019-build-stuff",
+      "language": "English",
       "date": {
         "month": "November",
         "day": "13",
@@ -38,6 +39,7 @@
       "talk": "Is There A Needle In The Haystack? Using Python To Narrow Down The Search For Life In Our Galaxy",
       "status": "pending",
       "folder": "2019-build-stuff",
+      "language": "English",
       "date": {
         "month": "November",
         "day": "18",
@@ -71,6 +73,7 @@
       "talk": "Is There A Needle In The Haystack? Using Python To Narrow Down The Search For Life In Our Galaxy",
       "status": "done",
       "folder": "2019-the-conf",
+      "language": "English",
       "date": {
         "month": "August",
         "day": "17",
@@ -98,7 +101,6 @@
         }
       },
       "slides": {
-        "language": "English",
         "deckId": "fe74096f19444cf28ebefb2479165b7a"
       },
       "video": "https://www.youtube.com/embed/1YpOqJcyLNU",
@@ -119,6 +121,7 @@
       "talk": "Th3 H1$tory of Cryptogr@phy",
       "status": "done",
       "folder": "2018-ruby-conf",
+      "language": "Portuguese",
       "date": {
         "month": "December",
         "day": "13",
@@ -150,6 +153,7 @@
       "talk": "The Future of Technology",
       "status": "done",
       "folder": "2018-obra-do-berco",
+      "language": "Portuguese",
       "date": {
         "month": "November",
         "day": "24",
@@ -176,6 +180,7 @@
       "talk": "Th3 H1$tory of Cryptogr@phy",
       "status": "done",
       "folder": "2018-the-conf",
+      "language": "English",
       "date": {
         "month": "September",
         "day": "21",
@@ -226,6 +231,7 @@
       "talk": "How postgis changed the insurance market in Brazil",
       "status": "done",
       "folder": "2018-vizir-talks",
+      "language": "Portuguese",
       "date": {
         "month": "August",
         "day": "28",
@@ -257,6 +263,7 @@
       "talk": "How postgis changed the insurance market in Brazil",
       "status": "done",
       "folder": "2018-pgday-it",
+      "language": "Italian",
       "date": {
         "month": "June",
         "day": "29",
@@ -295,6 +302,7 @@
       "talk": "Real-Time Monitoring with Grafana, StatsD, and InfluxDB",
       "status": "done",
       "folder": "2017-ruby-conf",
+      "language": "Portuguese",
       "date": {
         "month": "November",
         "day": "17",
@@ -335,6 +343,7 @@
       "talk": "Real-Time Monitoring with Grafana, StatsD, and InfluxDB",
       "status": "done",
       "folder": "2017-the-conf",
+      "language": "English",
       "date": {
         "month": "September",
         "day": "30",
@@ -366,6 +375,7 @@
       "talk": "Moving from a Monolithic to a Microservices Architecture",
       "status": "done",
       "folder": "",
+      "language": "Portuguese",
       "date": {
         "month": "May",
         "day": "29",
@@ -388,6 +398,7 @@
       "talk": "Moving from a Monolithic to a Microservices Architecture / Real-Time Monitoring with Grafana, StatsD, and InfluxDB",
       "status": "done",
       "folder": "2017-confoo",
+      "language": "English",
       "date": {
         "month": "March",
         "day": "8/9",

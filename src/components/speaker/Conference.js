@@ -22,13 +22,15 @@ class Conference extends React.Component {
         <Calendar month={conference.date.month} day={conference.date.day} weekDay={conference.date.weekDay} />
 
         <div className="pure-u-sm-1-1 pure-u-md-4-5 pure-u-lg-4-5">
-          <p className="first-paragraph">
+          <p className="conference-name">
             {conference.name}
           </p>
 
-          <p className="first-paragraph">
+          <p className="talk-title">
             {conference.talk}
           </p>
+
+          <span>Language:</span> <span>{conference.language}</span>
 
           {conference.paragraphs.map((paragraph, paragraphIndex) => {
             return <p key={`paragraph-${conference-name}-${paragraphIndex}`} dangerouslySetInnerHTML={{__html: paragraph}}></p>

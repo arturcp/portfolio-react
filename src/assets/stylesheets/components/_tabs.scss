@@ -8,6 +8,10 @@
   @media screen and (max-width: 600px) {
     min-height: 350px;
   }
+
+  p.conference-name {
+    display: none;
+  }
 }
 
 .react-tabs__tab-list {
@@ -22,7 +26,7 @@
   background-color: #0202023d;
 
   @media screen and (max-width: 600px) {
-    font-size: 9px;
+    font-size: 7px;
   }
 }
 

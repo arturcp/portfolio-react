@@ -2,13 +2,23 @@ import React from "react";
 import ReactDom from "react-dom";
 
 class Slides extends React.Component {
+  componentDidMount () {
+    const script = document.createElement("script");
+
+    script.src = "//speakerdeck.com/assets/embed.js";
+    script.classList.add("speakerdeck-embed");
+    script.setAttribute("data-id", this.props.conference.slides.deckId);
+    script.setAttribute("data-ratio", "1.77777777777778");
+    script.async = true;
+
+    let container = document.querySelector(`#${this.props.collapsibleId}-slides`)
+    container.appendChild(script);
+  }
+
   render() {
     return(
       <section>
-        <b>Language:</b> <span>{this.props.conference.slides.language}</span>
-        <div className="embeded-slides">
-          <script async className="speakerdeck-embed" data-id={this.props.conference.slides.deckId} data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
-        </div>
+        <div className="embeded-slides" id={`${this.props.collapsibleId}-slides`}></div>
       </section>
     );
   }
