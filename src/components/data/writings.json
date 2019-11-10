@@ -1,0 +1,18 @@
+{
+  "youse": [
+    { "url": "", "text": "Geolocation and the future" },
+    { "url": "", "text": "Rails Girls 2016" },
+    { "url": "", "text": "Squads, Tribes and the rise of a new startup" },
+    { "url": "", "text": "Hackathon 2016" },
+    { "url": "", "text": "Innovation in the DNA" }
+  ],
+  "blogs": [
+    { "url": "https://www.pluralsight.com/guides/defining-roles-with-concerns", "text": "Defining roles with concerns" },
+    { "url": "https://medium.com/@artur.prado/geolocation-c4c1a76d11eb", "text": "Geolocation" },
+    { "url": "https://medium.com/@artur.prado/what-makes-a-team-tick-e3f97bfc0890", "text": "What makes a team tick?" },
+    { "url": "https://medium.com/@artur.prado/the-power-of-imagination-ff93fda4d9e3", "text": "The power of imagination" },
+    { "url": "https://medium.com/@artur.prado/technology-as-the-wheel-of-change-bb4cb8afa9dc", "text": "Technology as the wheel of change" },
+    { "url": "https://medium.com/@artur.prado/work-sustainable-hours-37b9e5b641f5", "text": "Work sustainable hours" },
+    { "url": "https://medium.com/@artur.prado/squads-tribes-and-the-rise-of-a-new-startup-7294a658e112", "text": "Squads, tribes and the rise of a new startup" }
+  ]
+}
