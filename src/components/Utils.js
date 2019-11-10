@@ -3,3 +3,23 @@
 export const parameterize = (string) => {
    return string.trim().toLowerCase().replace(/[^a-zA-Z0-9 -]/, "").replace(/\s/g, "-");
 };
+
+export const inGroupsOf = (array, number, fillWith) => {
+  fillWith = fillWith || null;
+  let index = -number, slices = [];
+
+  if (number < 1) {
+    return array;
+  }
+
+  while ((index += number) < array.length) {
+      let s = array.slice(index, index + number);
+
+      while(s.length < number) {
+        s.push(fillWith);
+      }
+
+      slices.push(s);
+  }
+  return slices;
+};
