@@ -5,6 +5,7 @@ import About from "./developer/About";
 import Skills from "./developer/Skills";
 import Projects from "./developer/Projects";
 import WorkingExperiences from "./developer/WorkingExperiences";
+import TeachingExperiences from "./developer/TeachingExperiences";
 import WritingSkills from "./developer/WritingSkills";
 
 class PageLeft extends React.Component {
@@ -17,6 +18,7 @@ class PageLeft extends React.Component {
           <Projects />
           <WorkingExperiences />
           <WritingSkills />
+          <TeachingExperiences />
         </div>
       </div>
     )

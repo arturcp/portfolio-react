@@ -1,0 +1,27 @@
+[
+  {
+    "title": "Dojo - Rails Basics",
+    "date": "Around july 2017",
+    "description": {
+      "paragraphs": [
+        "The dojo was held at Youse."
+      ]
+    }
+  },
+  {
+    "title": "Introduction to Computer Programming with Ruby",
+    "date": "From 2018-08-04 to 2018-09-15",
+    "description": {
+      "paragraphs": [
+        "The course happened at Youse and was given to 14 students from difference backgrounds (and from different colleges).",
+        "The contents of the course included:"
+      ],
+      "contents": [
+        "Introduction to Ruby: history, sintaxe and good practices",
+        "Algorithms through exercise: extensive dojo sessions",
+        "Object orientation, DRY and SOLID",
+        "Real examples and a quick glance at Rails"
+      ]
+    }
+  }
+]
