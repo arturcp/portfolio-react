@@ -3,18 +3,18 @@ import ReactDOM from "react-dom";
 
 import Collapsible from "../Collapsible";
 import Skill from "./Skill";
-import data from '../data/skills.json';
+import skills from '../data/skills.json';
 
 class Skills extends React.Component {
   render() {
-    const skills = data.map((skill, index) =>
+    const skillsList = skills.map((skill, index) =>
       <Skill name={skill.name} image={skill.image} key={`skill-${index}`} />
     );
 
     return(
       <Collapsible id="skills" title="Skills">
         <p>&nbsp;</p>
-        {skills}
+        {skillsList}
 
   			<p>&nbsp;</p>
       </Collapsible>

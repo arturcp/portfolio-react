@@ -1,481 +1,479 @@
-{
-  "conferences": [
-    {
-      "name": "Build Stuff 2019 - Lithuania",
-      "city": "Vilnius",
-      "country": "Lithuania",
-      "flag": "lt",
-      "talk": "Is There A Needle In The Haystack? Using Python To Narrow Down The Search For Life In Our Galaxy",
-      "status": "pending",
-      "folder": "2019-build-stuff",
-      "language": "English",
-      "date": {
-        "month": "November",
-        "day": "13",
-        "weekDay": "Wednesday"
+[
+  {
+    "name": "Build Stuff 2019 - Lithuania",
+    "city": "Vilnius",
+    "country": "Lithuania",
+    "flag": "lt",
+    "talk": "Is There A Needle In The Haystack? Using Python To Narrow Down The Search For Life In Our Galaxy",
+    "status": "pending",
+    "folder": "2019-build-stuff",
+    "language": "English",
+    "date": {
+      "month": "November",
+      "day": "13",
+      "weekDay": "Wednesday"
+    },
+    "paragraphs": [
+      "The Milky Way is a spiral galaxy, but what you might not know is that life in any planet - or moon, or basically anything - that crosses one of the Galaxy's arms is (probably) doomed.",
+      "Looking for life in other planets is a herculean task, there are just too many of them. But what if we can look only into those that, like our solar system, swirls calmly around, never crossing the danger zone? That can make the task doable.",
+      "Why are the arms dangerous? Why does our sun look safe? What does it have to do with code (hint: it has something to do with Python and galpy)? Well, come aboard and see it yourself.",
+      "This talk will be done in partnership with <a href=\"mailto:lucassamp98@gmail.com\">Lucas Sampaio de Amorim</a>",
+      "The first talk will be given on Vilnius, Lithuania, on November 13. The second on Kiev, Ukraine, on November 18."
+    ],
+    "promo": {
+      "image": "build-stuff-19.png",
+      "alt": "Astronomy"
+    },
+    "icons": {
+      "location": {
+        "url": "https://goo.gl/maps/o3VN7GpYeAqpQ12S7"
       },
-      "paragraphs": [
-        "The Milky Way is a spiral galaxy, but what you might not know is that life in any planet - or moon, or basically anything - that crosses one of the Galaxy's arms is (probably) doomed.",
-        "Looking for life in other planets is a herculean task, there are just too many of them. But what if we can look only into those that, like our solar system, swirls calmly around, never crossing the danger zone? That can make the task doable.",
-        "Why are the arms dangerous? Why does our sun look safe? What does it have to do with code (hint: it has something to do with Python and galpy)? Well, come aboard and see it yourself.",
-        "This talk will be done in partnership with <a href=\"mailto:lucassamp98@gmail.com\">Lucas Sampaio de Amorim</a>",
-        "The first talk will be given on Vilnius, Lithuania, on November 13. The second on Kiev, Ukraine, on November 18."
-      ],
-      "promo": {
-        "image": "build-stuff-19.png",
-        "alt": "Astronomy"
+      "website": {
+        "url": "https://www.buildstuff.lt/"
       },
-      "icons": {
-        "location": {
-          "url": "https://goo.gl/maps/o3VN7GpYeAqpQ12S7"
-        },
-        "website": {
-          "url": "https://www.buildstuff.lt/"
-        },
-        "tickets": {
-          "url": "https://www.buildstuff.lt/get-tickets"
-        }
+      "tickets": {
+        "url": "https://www.buildstuff.lt/get-tickets"
       }
-    },
-    {
-      "name": "Build Stuff 2019 - Ukraine",
-      "city": "Kiev",
-      "country": "Ukraine",
-      "flag": "ua",
-      "talk": "Is There A Needle In The Haystack? Using Python To Narrow Down The Search For Life In Our Galaxy",
-      "status": "pending",
-      "folder": "2019-build-stuff",
-      "language": "English",
-      "date": {
-        "month": "November",
-        "day": "18",
-        "weekDay": "Monday"
-      },
-      "paragraphs": [
-        "The Milky Way is a spiral galaxy, but what you might not know is that life in any planet - or moon, or basically anything - that crosses one of the Galaxy's arms is (probably) doomed.",
-        "Looking for life in other planets is a herculean task, there are just too many of them. But what if we can look only into those that, like our solar system, swirls calmly around, never crossing the danger zone? That can make the task doable.",
-        "Why are the arms dangerous? Why does our sun look safe? What does it have to do with code (hint: it has something to do with Python and galpy)? Well, come aboard and see it yourself.",
-        "This talk will be done in partnership with <a href=\"mailto:lucassamp98@gmail.com\">Lucas Sampaio de Amorim</a>",
-        "The first talk will be given on Vilnius, Lithuania, on November 13. The second on Kiev, Ukraine, on November 18."
-      ],
-      "promo": {
-        "image": "artur.jpg",
-        "alt": "Astronomy"
-      },
-      "icons": {
-        "location": {
-          "url": "https://goo.gl/maps/pRHcCFLbvnRUbByh9"
-        },
-        "website": {
-          "url": "https://www.buildstuff.events"
-        },
-        "tickets": {
-          "url": "https://www.ukraine.buildstuff.events/get-tickets"
-        }
-      }
-    },
-    {
-      "name": "The Conf 2019",
-      "city": "São Paulo",
-      "country": "Brazil",
-      "flag": "br",
-      "talk": "Is There A Needle In The Haystack? Using Python To Narrow Down The Search For Life In Our Galaxy",
-      "status": "done",
-      "folder": "2019-the-conf",
-      "language": "English",
-      "date": {
-        "month": "August",
-        "day": "17",
-        "weekDay": "Saturday"
-      },
-      "paragraphs": [
-        "The Milky Way is a spiral galaxy, but what you might not know is that life in any planet - or moon, or basically anything - that crosses one of the Galaxy's arms is (probably) doomed.",
-        "Looking for life in other planets is a herculean task, there are just too many of them. But what if we can look only into those that, like our solar system, swirls calmly around, never crossing the danger zone? That can make the task doable.",
-        "Why are the arms dangerous? Why does our sun look safe? What does it have to do with code (hint: it has something to do with Python and galpy)? Well, come aboard and see it yourself.",
-        "This talk will be done in partnership with Lucas Sampaio de Amorim."
-      ],
-      "promo": {
-        "image": "the-conf.png",
-        "alt": "Astronomy"
-      },
-      "icons": {
-        "location": {
-          "url": "https://www.google.com/maps?ll=-23.557861,-46.668091&z=16&t=m&hl=en-US&gl=BR&mapclient=embed&cid=9673854410135199"
-        },
-        "website": {
-          "url": "https://www.theconf.club"
-        },
-        "tickets": {
-          "url": "https://www.eventbrite.com.br/e/the-conf-tickets-62137785790"
-        }
-      },
-      "slides": {
-        "deckId": "fe74096f19444cf28ebefb2479165b7a"
-      },
-      "video": "https://www.youtube.com/embed/1YpOqJcyLNU",
-      "photos": [
-        { "url": "1.jpg", "title": "On stage" },
-        { "url": "2.jpg", "title": "Carl Sagan" },
-        { "url": "3.jpg", "title": "That's Lucas" },
-        { "url": "4.jpg", "title": "Speakers" },
-        { "url": "5.jpg", "title": "For Science" },
-        { "url": "6.jpg", "title": "Lucas and I" },
-        { "url": "7.jpg", "title": "Coding" },
-        { "url": "8.jpg", "title": "Speakers" },
-        { "url": "9.jpg", "title": "Lucas"}
-      ]
-    },
-    {
-      "name": "Ruby Conf 2018",
-      "city": "São Paulo",
-      "country": "Brazil",
-      "flag": "br",
-      "talk": "Th3 H1$tory of Cryptogr@phy",
-      "status": "done",
-      "folder": "2018-ruby-conf",
-      "language": "Portuguese",
-      "date": {
-        "month": "December",
-        "day": "13",
-        "weekDay": "Thursday"
-      },
-      "paragraphs": [
-        "Do you know the most powerful intellectual weapon ever known? Secrecy. On it depended individuals' lives and nations' survival throughout human history.",
-        "Every single transaction we do relies upon cryptography to ensure our data is private. Or, is it?",
-        "The art of war teaches us to rely not on the likelihood of the enemy's not coming, but on our own readiness to receive him; not on the chance of his not attacking, but rather on the fact that we have made our position unassailable. The question is: is there such thing as an unbreakable code?",
-        "This talk walks through the history of Cryptography and the slippery balance between code makers and code breakers. Let's see how each side had the upper hand at different times and explain the most famous ciphers and the process to break them. It expects no previous knowledge on the subject and will work as an entry point to those how may be intrigued enough to pursue the mysterious path of ciphers and codes."
-      ],
-      "icons": {
-        "location": {
-          "url": "https://www.google.com/maps?ll=-23.600107,-46.676907&z=13&t=m&hl=en-US&gl=BR&mapclient=embed&cid=16718293223034038456"
-        },
-        "website": {
-          "url": "https://eventos.locaweb.com.br/proximos-eventos/rubyconf-brasil-2018"
-        },
-        "tickets": {
-          "url": "https://www.sympla.com.br/rubyconf-brasil-2018__373604"
-        }
-      },
-      "photos": [
-        { "url": "ruby-conf-2018.jpg", "title": "Ruby Conf!" }
-      ]
-    },
-    {
-      "name": "Obra do Berço 2018",
-      "city": "São Paulo",
-      "country": "Brazil",
-      "flag": "br",
-      "talk": "The Future of Technology",
-      "status": "done",
-      "folder": "2018-obra-do-berco",
-      "language": "Portuguese",
-      "date": {
-        "month": "November",
-        "day": "24",
-        "weekDay": "Saturday"
-      },
-      "paragraphs": [
-        "Technology is the wheel of change, but where is it leading us? Are we even in charge?",
-        "Let's take a look at Kevin Kelly's ideas present in the book \"Inevitable\", going through the 12 forces that will change our lives forever.",
-        "This talk will be delivered to a young audience that are under the protection of a non-profit organization called <a href=\"http://www.obradoberco.org.br/\" target=\"_blank\">Obra do Berço</a>."
-      ],
-      "icons": {
-        "location": {
-          "url": "https://www.google.com/maps/place/Youse/@-23.5938898,-46.6819888,17z/data=!3m1!4b1!4m5!3m4!1s0x94ce574fd8ca5b97:0xa73b01a99963f11d!8m2!3d-23.5938947!4d-46.6798001"
-        }
-      },
-      "photos": [
-        { "url": "1.jpg", "title": "First pic" },
-        { "url": "2.jpg", "title": "Second pic" },
-        { "url": "3.jpg", "title": "The future" }
-      ]
-    },
-    {
-      "name": "The Conf 2018",
-      "city": "São Paulo",
-      "country": "Brazil",
-      "flag": "br",
-      "talk": "Th3 H1$tory of Cryptogr@phy",
-      "status": "done",
-      "folder": "2018-the-conf",
-      "language": "English",
-      "date": {
-        "month": "September",
-        "day": "21",
-        "weekDay": "Friday"
-      },
-      "paragraphs": [
-        "Do you know the most powerful intellectual weapon ever known? Secrecy. On it depended individuals' lives and nations' survival throughout human history.",
-        "Every single transaction we do relies upon cryptography to ensure our data is private. Or, is it?",
-        "The art of war teaches us to rely not on the likelihood of the enemy's not coming, but on our own readiness to receive him; not on the chance of his not attacking, but rather on the fact that we have made our position unassailable. The question is: is there such thing as an unbreakable code?",
-        "This talk walks through the history of Cryptography and the slippery balance between code makers and code breakers. Let's see how each side had the upper hand at different times and explain the most famous ciphers and the process to break them. It expects no previous knowledge on the subject and will work as an entry point to those how may be intrigued enough to pursue the mysterious path of ciphers and codes.",
-        "",
-        "This presentation was also <a href=\"https://www.infoq.com/br/presentations/the-histtory-of-cryptography/\" target=\"_blank\">published on InfoQ</a>"
-      ],
-      "promo": {
-        "image": "promo.jpg",
-        "alt": "The Conf 2018"
-      },
-      "icons": {
-        "location": {
-          "url": "https://www.google.com/maps?ll=-23.557861,-46.668091&z=16&t=m&hl=en-US&gl=BR&mapclient=embed&cid=9673854410135199"
-        },
-        "website": {
-          "url": "https://www.theconf.club/"
-        },
-        "tickets": {
-          "url": "https://www.eventbrite.com.br/e/the-conf-tickets-47222303180"
-        }
-      },
-      "video": "https://www.youtube.com/embed/ZmbbPh71CcM",
-      "photos": [
-        { "url": "time-is-ending.jpeg", "title": "The game is on" },
-        { "url": "youse.jpeg", "title": "Youse" },
-        { "url": "women.jpeg", "title": "Joan Clark" },
-        { "url": "ada-lovelace.jpeg", "title": "Code like a girl" },
-        { "url": "voldemort.jpeg", "title": "Voldemort" },
-        { "url": "challenge-accepted.jpeg", "title": "Challenge accepted" },
-        { "url": "he-won-the-challenge.jpeg", "title": "And the inner is..." },
-        { "url": "i-am-your-father.jpeg", "title": "Vader is back" },
-        { "url": "i-dare-you.jpeg", "title": "This is motivation" },
-        { "url": "key.jpeg", "title": "Key" },
-        { "url": "xkcd.jpeg", "title": "Private key" },
-        { "url": "trevi-fountain.jpeg", "title": "Trevi Fountain" },
-        { "url": "stage.jpg", "title": "On stage" }
-      ]
-    },
-    {
-      "name": "Vizir Talks 2018",
-      "city": "São Paulo",
-      "country": "Brazil",
-      "flag": "br",
-      "talk": "How postgis changed the insurance market in Brazil",
-      "status": "done",
-      "folder": "2018-vizir-talks",
-      "language": "Portuguese",
-      "date": {
-        "month": "August",
-        "day": "28",
-        "weekDay": "Tuesday"
-      },
-      "paragraphs": [
-        "We can offer a one-size-fits-all product, or we can truly understand our users and offer something valuable and customized to their needs. Geolocation is the key to learn what is going on around them to make better, user-centric decisions.",
-        "Each time more we need to offer products that deeply relate to the users. The age of the one-size-fits-all is gone.",
-        "In the company I work for, we started the year full of ideas to improve the products we offer. Our mantra is to sell an insurance “like you”, but to do this we have to know better our users, to understand their needs to be a little more predictive.",
-        "Geolocation can help you to deliver exactly what your users need based on the surroundings of where they live or where they are.",
-        "This presentation aims to jump-start developers in the Geolocation world, walking through the main concepts and jumping straight into the code."
-      ],
-      "icons": {
-        "location": {
-          "url": "https://www.google.com.br/maps/place/Vizir+Software+Studio/@-23.5431401,-46.6440379,15z/data=!4m5!3m4!1s0x0:0x1e7e41ca0e0fddf3!8m2!3d-23.5431401!4d-46.6440379"
-        },
-        "website": {
-          "url": "http://vizir.com.br/"
-        }
-      },
-      "photos": [
-        { "url": "1.jpeg", "title": "Thanks for the all the fish" },
-        { "url": "4.jpeg", "title": "GIS" },
-        { "url": "5.jpeg", "title": "Look at the map" },
-        { "url": "6.jpeg", "title": "The straight line" },
-        { "url": "7.jpeg", "title": "2D or 3D?" },
-        { "url": "8.jpeg", "title": "ST_Point" },
-        { "url": "9.jpeg", "title": "Real dimensions" }
-      ]
-    },
-    {
-      "name": "PGDay.it 2018",
-      "city": "Lazise",
-      "country": "Italy",
-      "flag": "it",
-      "talk": "How postgis changed the insurance market in Brazil",
-      "status": "done",
-      "folder": "2018-pgday-it",
-      "language": "Italian",
-      "date": {
-        "month": "June",
-        "day": "29",
-        "weekDay": "Friday"
-      },
-      "paragraphs": [
-        "We can offer a one-size-fits-all product, or we can truly understand our users and offer something valuable and customized to their needs. Geolocation is the key to learn what is going on around them to make better, user-centric decisions.",
-        "Each time more we need to offer products that deeply relate to the users. The age of the one-size-fits-all is gone.",
-        "In the company I work for, we started the year full of ideas to improve the products we offer. Our mantra is to sell an insurance “like you”, but to do this we have to know better our users, to understand their needs to be a little more predictive.",
-        "Geolocation can help you to deliver exactly what your users need based on the surroundings of where they live or where they are.",
-        "This presentation aims to jump-start developers in the Geolocation world, walking through the main concepts and jumping straight into the code."
-      ],
-      "icons": {
-        "location": {
-          "url": "https://www.google.com/maps/place/Via+Brus%C3%A0,+16,+37017+Lazise+VR,+It%C3%A1lia/@45.462058,10.7172656,17z/data=!3m1!4b1!4m5!3m4!1s0x4781e947511dcad1:0x98ad72ec0138fd6e!8m2!3d45.4620543!4d10.71945439"
-        },
-        "website": {
-          "url": "https://2018.pgday.it/it/blog/artur_prado"
-        },
-        "tickets": {
-          "url": "http://www.eventbee.com/v/2018pgdayit"
-        }
-      },
-      "video": "https://www.youtube.com/embed/5xZcjILTzYM",
-      "photos": [
-        { "url": "stage5.jpg", "title": "Maps" },
-        { "url": "speakers.jpg", "title": "Speakers" },
-        { "url": "elephant.jpg", "title": "The elephant" },
-        { "url": "everybody.jpg", "title": "Behaved people" },
-        { "url": "everybody2.jpg", "title": "Not so behaved anymore" },
-        { "url": "stage4.jpg", "title": "Boundaries" },
-        { "url": "pgday2.jpg", "title": "The airplane route" },
-        { "url": "stage1.jpg", "title": "On stage - 1" },
-        { "url": "stage2.jpg", "title": "On stage - 2" },
-        { "url": "pgday.jpg", "title": "Youse" }
-      ]
-    },
-    {
-      "name": "Ruby Conf 2017",
-      "city": "São Paulo",
-      "country": "Brazil",
-      "flag": "br",
-      "talk": "Real-Time Monitoring with Grafana, StatsD, and InfluxDB",
-      "status": "done",
-      "folder": "2017-ruby-conf",
-      "language": "Portuguese",
-      "date": {
-        "month": "November",
-        "day": "17",
-        "weekDay": "Friday"
-      },
-      "paragraphs": [
-        "We can take a glimpse at our applications or we can truly see them. We have a choice.",
-        "Our path is laden with problems and, when they arise, the first place to run is the log. The log is straightforward when the systems are small, but when we start to scale… the more users we get, the more data we will have to go through, and finding what we need is like staring at a well-stocked library, looking at the book titles, wondering which one could possibly have the information we need.",
-        "I’d like to suggest an alternative: the combination of StatsD, a platform that collects data to build statistics, and Grafana. It allows us to create beautiful, interactive dashboards that support pluggable panels."
-      ],
-      "promo": {
-        "image": "promo.png",
-        "alt": "Ruby Conf 2017"
-      },
-      "icons": {
-        "location": {
-          "url": "https://www.google.com/maps?ll=-23.55797,-46.652316&z=16&t=m&hl=en-US&gl=BR&mapclient=embed&cid=1370844870729471809"
-        },
-        "website": {
-          "url": "http://eventos.locaweb.com.br/proximos-eventos/rubyconf-2017/"
-        },
-        "tickets": {
-          "url": "http://eventos.locaweb.com.br/proximos-eventos/rubyconf-2017/#inscrevase"
-        }
-      },
-      "video": "https://www.youtube.com/embed/qQ1ew5iBJvI",
-      "photos": [
-        { "url": "1.jpeg", "title": "Magic happens" },
-        { "url": "2.jpeg", "title": "I <3 Astronomy" },
-        { "url": "3.jpeg", "title": "Star dust" },
-        { "url": "4.jpeg", "title": "A Dashboard" },
-        { "url": "5.jpeg", "title": "Scrolling a dashboard" },
-        { "url": "6.jpeg", "title": "Youse!" },
-        { "url": "7.jpg", "title": "Show, don't tell" },
-        { "url": "8.jpg", "title": "On stage!" }
-      ]
-    },
-    {
-      "name": "The Conf 2017",
-      "city": "São Paulo",
-      "country": "Brazil",
-      "flag": "br",
-      "talk": "Real-Time Monitoring with Grafana, StatsD, and InfluxDB",
-      "status": "done",
-      "folder": "2017-the-conf",
-      "language": "English",
-      "date": {
-        "month": "September",
-        "day": "30",
-        "weekDay": "Saturday"
-      },
-      "paragraphs": [
-        "We can take a glimpse at our applications or we can truly see them. We have a choice.",
-        "Our path is laden with problems and, when they arise, the first place to run is the log. The log is straightforward when the systems are small, but when we start to scale… the more users we get, the more data we will have to go through, and finding what we need is like staring at a well-stocked library, looking at the book titles, wondering which one could possibly have the information we need.",
-        "I’d like to suggest an alternative: the combination of StatsD, a platform that collects data to build statistics, and Grafana. It allows us to create beautiful, interactive dashboards that support pluggable panels.",
-        "This talk was published on <a href=\"https://www.infoq.com/br/presentations/real-time-monitoring-with-grafana-statsd-and-influxdb\" target=\"_blank\">InfoQ</a>!"
-      ],
-      "icons": {
-        "location": {
-          "url": "https://www.google.com.br/maps/place/Av.+Rebou%C3%A7as,+600+-+Pinheiros,+S%C3%A3o+Paulo+-+SP/@-23.5581509,-46.6711459,17z/data=!3m1!4b1!4m5!3m4!1s0x94ce582ae41297c1:0x31840252c3e24bf9!8m2!3d-23.5581558!4d-46.6689572?hl=pt-BR"
-        },
-        "website": {
-          "url": "http://www.theconf.club/"
-        }
-      },
-      "video": "https://www.youtube.com/embed/1kOpbXFGBuI",
-      "photos": [
-        { "url": "on-stage.jpg", "title":"On stage" },
-        { "url": "on-stage-2.jpg", "title":"That's me again" },
-        { "url": "sharing-stage.jpg", "title":"Two speakers at once?" },
-        { "url": "all-speakers.jpg", "title":"All speakers" },
-        { "url": "hands-up.jpg", "title":"Hands up!" }
-      ]
-    },
-    {
-      "name": "Vizir Talks 2017",
-      "city": "São Paulo",
-      "country": "Brazil",
-      "flag": "br",
-      "talk": "Moving from a Monolithic to a Microservices Architecture",
-      "status": "done",
-      "folder": "",
-      "language": "Portuguese",
-      "date": {
-        "month": "May",
-        "day": "29",
-        "weekDay": "Monday"
-      },
-      "paragraphs": [
-        "In 2006, service oriented architecture (or SOA) was all the crazy, but it failed us. Microservices resemble a lot with SOA, but if SOA didn’t work in the past, why are we back again with the same principles? Are Microservices just SOA in disguise?",
-        "This talk was created to demystify it, showing what was inherited from SOA and what is different now that allows us to resume the journey we abandoned 10 years ago. It will focus on things with which I struggle, in my own experience of moving from the monolith to an army of well-defined microservices.",
-        "Let's go through some of the most important patterns and see how to avoid the most common pitfalls."
-      ],
-      "icons": {
-        "location": {
-          "url": "https://www.google.com.br/maps/place/Vizir+Software+Studio/@-23.5431401,-46.6440379,15z/data=!4m5!3m4!1s0x0:0x1e7e41ca0e0fddf3!8m2!3d-23.5431401!4d-46.6440379"
-        },
-        "website": {
-          "url": "http://vizir.com.br/"
-        }
-      }
-    },
-    {
-      "name": "Confoo 2017",
-      "city": "Montreal",
-      "country": "Brazil",
-      "flag": "ca",
-      "talk": "Moving from a Monolithic to a Microservices Architecture / Real-Time Monitoring with Grafana, StatsD, and InfluxDB",
-      "status": "done",
-      "folder": "2017-confoo",
-      "language": "English",
-      "date": {
-        "month": "March",
-        "day": "8/9",
-        "weekDay": "Wed / Thu"
-      },
-      "paragraphs": [
-        "As an application grows, the flexibility that inclined us to build a monolith vanishes. The once reliable system is now prone to errors, bugs leak to unexpected places and new features take a considerable time to be delivered. We can get the productivity back by moving to microservices.",
-        "In 2006, service oriented architecture (or SOA) was all the crazy, but it failed us. Microservices resemble a lot with SOA, but if SOA didn’t work in the past, why are we back again with the same principles? Are Microservices just SOA in disguise?",
-        "This talk was created to demystify it, showing what was inherited from SOA and what is different now that allows us to resume the journey we abandoned 10 years ago. It will focus on things with which I struggle, in my own experience of moving from the monolith to an army of well-defined microservices.",
-        "Let's go through some of the most important patterns and see how to avoid the most common pitfalls.",
-        "Both talks were evaluated by the public with grade 4 (out of 5). Each presentation received a total of 30 forms with feedback and suggestions to be improved."
-      ],
-      "icons": {
-        "location": {
-          "url": "https://www.google.com.br/maps/place/Hotel+Bonaventure+Montr%C3%A9al/@45.4993335,-73.5649466,15z/data=!4m2!3m1!1s0x0:0x5c249de257b318c0?sa=X&ved=0ahUKEwjSk86y283VAhWCjpAKHYkeDhMQ_BIIigEwCg"
-        },
-        "website": {
-          "url": "https://confoo.ca/en/yul2017/schedule"
-        }
-      },
-      "photos": [
-        { "url": "microservices.jpg", "title": "A long time ago..." },
-        { "url": "speaker.jpg", "title": "That's me" },
-        { "url": "microservices2.jpg", "title": "Microservices" },
-        { "url": "grafana.jpeg", "title": "Grafana" },
-        { "url": "resources.jpeg", "title": "Resources" }
-      ]
     }
-  ]
-}
+  },
+  {
+    "name": "Build Stuff 2019 - Ukraine",
+    "city": "Kiev",
+    "country": "Ukraine",
+    "flag": "ua",
+    "talk": "Is There A Needle In The Haystack? Using Python To Narrow Down The Search For Life In Our Galaxy",
+    "status": "pending",
+    "folder": "2019-build-stuff",
+    "language": "English",
+    "date": {
+      "month": "November",
+      "day": "18",
+      "weekDay": "Monday"
+    },
+    "paragraphs": [
+      "The Milky Way is a spiral galaxy, but what you might not know is that life in any planet - or moon, or basically anything - that crosses one of the Galaxy's arms is (probably) doomed.",
+      "Looking for life in other planets is a herculean task, there are just too many of them. But what if we can look only into those that, like our solar system, swirls calmly around, never crossing the danger zone? That can make the task doable.",
+      "Why are the arms dangerous? Why does our sun look safe? What does it have to do with code (hint: it has something to do with Python and galpy)? Well, come aboard and see it yourself.",
+      "This talk will be done in partnership with <a href=\"mailto:lucassamp98@gmail.com\">Lucas Sampaio de Amorim</a>",
+      "The first talk will be given on Vilnius, Lithuania, on November 13. The second on Kiev, Ukraine, on November 18."
+    ],
+    "promo": {
+      "image": "artur.jpg",
+      "alt": "Astronomy"
+    },
+    "icons": {
+      "location": {
+        "url": "https://goo.gl/maps/pRHcCFLbvnRUbByh9"
+      },
+      "website": {
+        "url": "https://www.buildstuff.events"
+      },
+      "tickets": {
+        "url": "https://www.ukraine.buildstuff.events/get-tickets"
+      }
+    }
+  },
+  {
+    "name": "The Conf 2019",
+    "city": "São Paulo",
+    "country": "Brazil",
+    "flag": "br",
+    "talk": "Is There A Needle In The Haystack? Using Python To Narrow Down The Search For Life In Our Galaxy",
+    "status": "done",
+    "folder": "2019-the-conf",
+    "language": "English",
+    "date": {
+      "month": "August",
+      "day": "17",
+      "weekDay": "Saturday"
+    },
+    "paragraphs": [
+      "The Milky Way is a spiral galaxy, but what you might not know is that life in any planet - or moon, or basically anything - that crosses one of the Galaxy's arms is (probably) doomed.",
+      "Looking for life in other planets is a herculean task, there are just too many of them. But what if we can look only into those that, like our solar system, swirls calmly around, never crossing the danger zone? That can make the task doable.",
+      "Why are the arms dangerous? Why does our sun look safe? What does it have to do with code (hint: it has something to do with Python and galpy)? Well, come aboard and see it yourself.",
+      "This talk will be done in partnership with Lucas Sampaio de Amorim."
+    ],
+    "promo": {
+      "image": "the-conf.png",
+      "alt": "Astronomy"
+    },
+    "icons": {
+      "location": {
+        "url": "https://www.google.com/maps?ll=-23.557861,-46.668091&z=16&t=m&hl=en-US&gl=BR&mapclient=embed&cid=9673854410135199"
+      },
+      "website": {
+        "url": "https://www.theconf.club"
+      },
+      "tickets": {
+        "url": "https://www.eventbrite.com.br/e/the-conf-tickets-62137785790"
+      }
+    },
+    "slides": {
+      "deckId": "fe74096f19444cf28ebefb2479165b7a"
+    },
+    "video": "https://www.youtube.com/embed/1YpOqJcyLNU",
+    "photos": [
+      { "url": "1.jpg", "title": "On stage" },
+      { "url": "2.jpg", "title": "Carl Sagan" },
+      { "url": "3.jpg", "title": "That's Lucas" },
+      { "url": "4.jpg", "title": "Speakers" },
+      { "url": "5.jpg", "title": "For Science" },
+      { "url": "6.jpg", "title": "Lucas and I" },
+      { "url": "7.jpg", "title": "Coding" },
+      { "url": "8.jpg", "title": "Speakers" },
+      { "url": "9.jpg", "title": "Lucas"}
+    ]
+  },
+  {
+    "name": "Ruby Conf 2018",
+    "city": "São Paulo",
+    "country": "Brazil",
+    "flag": "br",
+    "talk": "Th3 H1$tory of Cryptogr@phy",
+    "status": "done",
+    "folder": "2018-ruby-conf",
+    "language": "Portuguese",
+    "date": {
+      "month": "December",
+      "day": "13",
+      "weekDay": "Thursday"
+    },
+    "paragraphs": [
+      "Do you know the most powerful intellectual weapon ever known? Secrecy. On it depended individuals' lives and nations' survival throughout human history.",
+      "Every single transaction we do relies upon cryptography to ensure our data is private. Or, is it?",
+      "The art of war teaches us to rely not on the likelihood of the enemy's not coming, but on our own readiness to receive him; not on the chance of his not attacking, but rather on the fact that we have made our position unassailable. The question is: is there such thing as an unbreakable code?",
+      "This talk walks through the history of Cryptography and the slippery balance between code makers and code breakers. Let's see how each side had the upper hand at different times and explain the most famous ciphers and the process to break them. It expects no previous knowledge on the subject and will work as an entry point to those how may be intrigued enough to pursue the mysterious path of ciphers and codes."
+    ],
+    "icons": {
+      "location": {
+        "url": "https://www.google.com/maps?ll=-23.600107,-46.676907&z=13&t=m&hl=en-US&gl=BR&mapclient=embed&cid=16718293223034038456"
+      },
+      "website": {
+        "url": "https://eventos.locaweb.com.br/proximos-eventos/rubyconf-brasil-2018"
+      },
+      "tickets": {
+        "url": "https://www.sympla.com.br/rubyconf-brasil-2018__373604"
+      }
+    },
+    "photos": [
+      { "url": "ruby-conf-2018.jpg", "title": "Ruby Conf!" }
+    ]
+  },
+  {
+    "name": "Obra do Berço 2018",
+    "city": "São Paulo",
+    "country": "Brazil",
+    "flag": "br",
+    "talk": "The Future of Technology",
+    "status": "done",
+    "folder": "2018-obra-do-berco",
+    "language": "Portuguese",
+    "date": {
+      "month": "November",
+      "day": "24",
+      "weekDay": "Saturday"
+    },
+    "paragraphs": [
+      "Technology is the wheel of change, but where is it leading us? Are we even in charge?",
+      "Let's take a look at Kevin Kelly's ideas present in the book \"Inevitable\", going through the 12 forces that will change our lives forever.",
+      "This talk will be delivered to a young audience that are under the protection of a non-profit organization called <a href=\"http://www.obradoberco.org.br/\" target=\"_blank\">Obra do Berço</a>."
+    ],
+    "icons": {
+      "location": {
+        "url": "https://www.google.com/maps/place/Youse/@-23.5938898,-46.6819888,17z/data=!3m1!4b1!4m5!3m4!1s0x94ce574fd8ca5b97:0xa73b01a99963f11d!8m2!3d-23.5938947!4d-46.6798001"
+      }
+    },
+    "photos": [
+      { "url": "1.jpg", "title": "First pic" },
+      { "url": "2.jpg", "title": "Second pic" },
+      { "url": "3.jpg", "title": "The future" }
+    ]
+  },
+  {
+    "name": "The Conf 2018",
+    "city": "São Paulo",
+    "country": "Brazil",
+    "flag": "br",
+    "talk": "Th3 H1$tory of Cryptogr@phy",
+    "status": "done",
+    "folder": "2018-the-conf",
+    "language": "English",
+    "date": {
+      "month": "September",
+      "day": "21",
+      "weekDay": "Friday"
+    },
+    "paragraphs": [
+      "Do you know the most powerful intellectual weapon ever known? Secrecy. On it depended individuals' lives and nations' survival throughout human history.",
+      "Every single transaction we do relies upon cryptography to ensure our data is private. Or, is it?",
+      "The art of war teaches us to rely not on the likelihood of the enemy's not coming, but on our own readiness to receive him; not on the chance of his not attacking, but rather on the fact that we have made our position unassailable. The question is: is there such thing as an unbreakable code?",
+      "This talk walks through the history of Cryptography and the slippery balance between code makers and code breakers. Let's see how each side had the upper hand at different times and explain the most famous ciphers and the process to break them. It expects no previous knowledge on the subject and will work as an entry point to those how may be intrigued enough to pursue the mysterious path of ciphers and codes.",
+      "",
+      "This presentation was also <a href=\"https://www.infoq.com/br/presentations/the-histtory-of-cryptography/\" target=\"_blank\">published on InfoQ</a>"
+    ],
+    "promo": {
+      "image": "promo.jpg",
+      "alt": "The Conf 2018"
+    },
+    "icons": {
+      "location": {
+        "url": "https://www.google.com/maps?ll=-23.557861,-46.668091&z=16&t=m&hl=en-US&gl=BR&mapclient=embed&cid=9673854410135199"
+      },
+      "website": {
+        "url": "https://www.theconf.club/"
+      },
+      "tickets": {
+        "url": "https://www.eventbrite.com.br/e/the-conf-tickets-47222303180"
+      }
+    },
+    "video": "https://www.youtube.com/embed/ZmbbPh71CcM",
+    "photos": [
+      { "url": "time-is-ending.jpeg", "title": "The game is on" },
+      { "url": "youse.jpeg", "title": "Youse" },
+      { "url": "women.jpeg", "title": "Joan Clark" },
+      { "url": "ada-lovelace.jpeg", "title": "Code like a girl" },
+      { "url": "voldemort.jpeg", "title": "Voldemort" },
+      { "url": "challenge-accepted.jpeg", "title": "Challenge accepted" },
+      { "url": "he-won-the-challenge.jpeg", "title": "And the inner is..." },
+      { "url": "i-am-your-father.jpeg", "title": "Vader is back" },
+      { "url": "i-dare-you.jpeg", "title": "This is motivation" },
+      { "url": "key.jpeg", "title": "Key" },
+      { "url": "xkcd.jpeg", "title": "Private key" },
+      { "url": "trevi-fountain.jpeg", "title": "Trevi Fountain" },
+      { "url": "stage.jpg", "title": "On stage" }
+    ]
+  },
+  {
+    "name": "Vizir Talks 2018",
+    "city": "São Paulo",
+    "country": "Brazil",
+    "flag": "br",
+    "talk": "How postgis changed the insurance market in Brazil",
+    "status": "done",
+    "folder": "2018-vizir-talks",
+    "language": "Portuguese",
+    "date": {
+      "month": "August",
+      "day": "28",
+      "weekDay": "Tuesday"
+    },
+    "paragraphs": [
+      "We can offer a one-size-fits-all product, or we can truly understand our users and offer something valuable and customized to their needs. Geolocation is the key to learn what is going on around them to make better, user-centric decisions.",
+      "Each time more we need to offer products that deeply relate to the users. The age of the one-size-fits-all is gone.",
+      "In the company I work for, we started the year full of ideas to improve the products we offer. Our mantra is to sell an insurance “like you”, but to do this we have to know better our users, to understand their needs to be a little more predictive.",
+      "Geolocation can help you to deliver exactly what your users need based on the surroundings of where they live or where they are.",
+      "This presentation aims to jump-start developers in the Geolocation world, walking through the main concepts and jumping straight into the code."
+    ],
+    "icons": {
+      "location": {
+        "url": "https://www.google.com.br/maps/place/Vizir+Software+Studio/@-23.5431401,-46.6440379,15z/data=!4m5!3m4!1s0x0:0x1e7e41ca0e0fddf3!8m2!3d-23.5431401!4d-46.6440379"
+      },
+      "website": {
+        "url": "http://vizir.com.br/"
+      }
+    },
+    "photos": [
+      { "url": "1.jpeg", "title": "Thanks for the all the fish" },
+      { "url": "4.jpeg", "title": "GIS" },
+      { "url": "5.jpeg", "title": "Look at the map" },
+      { "url": "6.jpeg", "title": "The straight line" },
+      { "url": "7.jpeg", "title": "2D or 3D?" },
+      { "url": "8.jpeg", "title": "ST_Point" },
+      { "url": "9.jpeg", "title": "Real dimensions" }
+    ]
+  },
+  {
+    "name": "PGDay.it 2018",
+    "city": "Lazise",
+    "country": "Italy",
+    "flag": "it",
+    "talk": "How postgis changed the insurance market in Brazil",
+    "status": "done",
+    "folder": "2018-pgday-it",
+    "language": "Italian",
+    "date": {
+      "month": "June",
+      "day": "29",
+      "weekDay": "Friday"
+    },
+    "paragraphs": [
+      "We can offer a one-size-fits-all product, or we can truly understand our users and offer something valuable and customized to their needs. Geolocation is the key to learn what is going on around them to make better, user-centric decisions.",
+      "Each time more we need to offer products that deeply relate to the users. The age of the one-size-fits-all is gone.",
+      "In the company I work for, we started the year full of ideas to improve the products we offer. Our mantra is to sell an insurance “like you”, but to do this we have to know better our users, to understand their needs to be a little more predictive.",
+      "Geolocation can help you to deliver exactly what your users need based on the surroundings of where they live or where they are.",
+      "This presentation aims to jump-start developers in the Geolocation world, walking through the main concepts and jumping straight into the code."
+    ],
+    "icons": {
+      "location": {
+        "url": "https://www.google.com/maps/place/Via+Brus%C3%A0,+16,+37017+Lazise+VR,+It%C3%A1lia/@45.462058,10.7172656,17z/data=!3m1!4b1!4m5!3m4!1s0x4781e947511dcad1:0x98ad72ec0138fd6e!8m2!3d45.4620543!4d10.71945439"
+      },
+      "website": {
+        "url": "https://2018.pgday.it/it/blog/artur_prado"
+      },
+      "tickets": {
+        "url": "http://www.eventbee.com/v/2018pgdayit"
+      }
+    },
+    "video": "https://www.youtube.com/embed/5xZcjILTzYM",
+    "photos": [
+      { "url": "stage5.jpg", "title": "Maps" },
+      { "url": "speakers.jpg", "title": "Speakers" },
+      { "url": "elephant.jpg", "title": "The elephant" },
+      { "url": "everybody.jpg", "title": "Behaved people" },
+      { "url": "everybody2.jpg", "title": "Not so behaved anymore" },
+      { "url": "stage4.jpg", "title": "Boundaries" },
+      { "url": "pgday2.jpg", "title": "The airplane route" },
+      { "url": "stage1.jpg", "title": "On stage - 1" },
+      { "url": "stage2.jpg", "title": "On stage - 2" },
+      { "url": "pgday.jpg", "title": "Youse" }
+    ]
+  },
+  {
+    "name": "Ruby Conf 2017",
+    "city": "São Paulo",
+    "country": "Brazil",
+    "flag": "br",
+    "talk": "Real-Time Monitoring with Grafana, StatsD, and InfluxDB",
+    "status": "done",
+    "folder": "2017-ruby-conf",
+    "language": "Portuguese",
+    "date": {
+      "month": "November",
+      "day": "17",
+      "weekDay": "Friday"
+    },
+    "paragraphs": [
+      "We can take a glimpse at our applications or we can truly see them. We have a choice.",
+      "Our path is laden with problems and, when they arise, the first place to run is the log. The log is straightforward when the systems are small, but when we start to scale… the more users we get, the more data we will have to go through, and finding what we need is like staring at a well-stocked library, looking at the book titles, wondering which one could possibly have the information we need.",
+      "I’d like to suggest an alternative: the combination of StatsD, a platform that collects data to build statistics, and Grafana. It allows us to create beautiful, interactive dashboards that support pluggable panels."
+    ],
+    "promo": {
+      "image": "promo.png",
+      "alt": "Ruby Conf 2017"
+    },
+    "icons": {
+      "location": {
+        "url": "https://www.google.com/maps?ll=-23.55797,-46.652316&z=16&t=m&hl=en-US&gl=BR&mapclient=embed&cid=1370844870729471809"
+      },
+      "website": {
+        "url": "http://eventos.locaweb.com.br/proximos-eventos/rubyconf-2017/"
+      },
+      "tickets": {
+        "url": "http://eventos.locaweb.com.br/proximos-eventos/rubyconf-2017/#inscrevase"
+      }
+    },
+    "video": "https://www.youtube.com/embed/qQ1ew5iBJvI",
+    "photos": [
+      { "url": "1.jpeg", "title": "Magic happens" },
+      { "url": "2.jpeg", "title": "I <3 Astronomy" },
+      { "url": "3.jpeg", "title": "Star dust" },
+      { "url": "4.jpeg", "title": "A Dashboard" },
+      { "url": "5.jpeg", "title": "Scrolling a dashboard" },
+      { "url": "6.jpeg", "title": "Youse!" },
+      { "url": "7.jpg", "title": "Show, don't tell" },
+      { "url": "8.jpg", "title": "On stage!" }
+    ]
+  },
+  {
+    "name": "The Conf 2017",
+    "city": "São Paulo",
+    "country": "Brazil",
+    "flag": "br",
+    "talk": "Real-Time Monitoring with Grafana, StatsD, and InfluxDB",
+    "status": "done",
+    "folder": "2017-the-conf",
+    "language": "English",
+    "date": {
+      "month": "September",
+      "day": "30",
+      "weekDay": "Saturday"
+    },
+    "paragraphs": [
+      "We can take a glimpse at our applications or we can truly see them. We have a choice.",
+      "Our path is laden with problems and, when they arise, the first place to run is the log. The log is straightforward when the systems are small, but when we start to scale… the more users we get, the more data we will have to go through, and finding what we need is like staring at a well-stocked library, looking at the book titles, wondering which one could possibly have the information we need.",
+      "I’d like to suggest an alternative: the combination of StatsD, a platform that collects data to build statistics, and Grafana. It allows us to create beautiful, interactive dashboards that support pluggable panels.",
+      "This talk was published on <a href=\"https://www.infoq.com/br/presentations/real-time-monitoring-with-grafana-statsd-and-influxdb\" target=\"_blank\">InfoQ</a>!"
+    ],
+    "icons": {
+      "location": {
+        "url": "https://www.google.com.br/maps/place/Av.+Rebou%C3%A7as,+600+-+Pinheiros,+S%C3%A3o+Paulo+-+SP/@-23.5581509,-46.6711459,17z/data=!3m1!4b1!4m5!3m4!1s0x94ce582ae41297c1:0x31840252c3e24bf9!8m2!3d-23.5581558!4d-46.6689572?hl=pt-BR"
+      },
+      "website": {
+        "url": "http://www.theconf.club/"
+      }
+    },
+    "video": "https://www.youtube.com/embed/1kOpbXFGBuI",
+    "photos": [
+      { "url": "on-stage.jpg", "title":"On stage" },
+      { "url": "on-stage-2.jpg", "title":"That's me again" },
+      { "url": "sharing-stage.jpg", "title":"Two speakers at once?" },
+      { "url": "all-speakers.jpg", "title":"All speakers" },
+      { "url": "hands-up.jpg", "title":"Hands up!" }
+    ]
+  },
+  {
+    "name": "Vizir Talks 2017",
+    "city": "São Paulo",
+    "country": "Brazil",
+    "flag": "br",
+    "talk": "Moving from a Monolithic to a Microservices Architecture",
+    "status": "done",
+    "folder": "",
+    "language": "Portuguese",
+    "date": {
+      "month": "May",
+      "day": "29",
+      "weekDay": "Monday"
+    },
+    "paragraphs": [
+      "In 2006, service oriented architecture (or SOA) was all the crazy, but it failed us. Microservices resemble a lot with SOA, but if SOA didn’t work in the past, why are we back again with the same principles? Are Microservices just SOA in disguise?",
+      "This talk was created to demystify it, showing what was inherited from SOA and what is different now that allows us to resume the journey we abandoned 10 years ago. It will focus on things with which I struggle, in my own experience of moving from the monolith to an army of well-defined microservices.",
+      "Let's go through some of the most important patterns and see how to avoid the most common pitfalls."
+    ],
+    "icons": {
+      "location": {
+        "url": "https://www.google.com.br/maps/place/Vizir+Software+Studio/@-23.5431401,-46.6440379,15z/data=!4m5!3m4!1s0x0:0x1e7e41ca0e0fddf3!8m2!3d-23.5431401!4d-46.6440379"
+      },
+      "website": {
+        "url": "http://vizir.com.br/"
+      }
+    }
+  },
+  {
+    "name": "Confoo 2017",
+    "city": "Montreal",
+    "country": "Brazil",
+    "flag": "ca",
+    "talk": "Moving from a Monolithic to a Microservices Architecture / Real-Time Monitoring with Grafana, StatsD, and InfluxDB",
+    "status": "done",
+    "folder": "2017-confoo",
+    "language": "English",
+    "date": {
+      "month": "March",
+      "day": "8/9",
+      "weekDay": "Wed / Thu"
+    },
+    "paragraphs": [
+      "As an application grows, the flexibility that inclined us to build a monolith vanishes. The once reliable system is now prone to errors, bugs leak to unexpected places and new features take a considerable time to be delivered. We can get the productivity back by moving to microservices.",
+      "In 2006, service oriented architecture (or SOA) was all the crazy, but it failed us. Microservices resemble a lot with SOA, but if SOA didn’t work in the past, why are we back again with the same principles? Are Microservices just SOA in disguise?",
+      "This talk was created to demystify it, showing what was inherited from SOA and what is different now that allows us to resume the journey we abandoned 10 years ago. It will focus on things with which I struggle, in my own experience of moving from the monolith to an army of well-defined microservices.",
+      "Let's go through some of the most important patterns and see how to avoid the most common pitfalls.",
+      "Both talks were evaluated by the public with grade 4 (out of 5). Each presentation received a total of 30 forms with feedback and suggestions to be improved."
+    ],
+    "icons": {
+      "location": {
+        "url": "https://www.google.com.br/maps/place/Hotel+Bonaventure+Montr%C3%A9al/@45.4993335,-73.5649466,15z/data=!4m2!3m1!1s0x0:0x5c249de257b318c0?sa=X&ved=0ahUKEwjSk86y283VAhWCjpAKHYkeDhMQ_BIIigEwCg"
+      },
+      "website": {
+        "url": "https://confoo.ca/en/yul2017/schedule"
+      }
+    },
+    "photos": [
+      { "url": "microservices.jpg", "title": "A long time ago..." },
+      { "url": "speaker.jpg", "title": "That's me" },
+      { "url": "microservices2.jpg", "title": "Microservices" },
+      { "url": "grafana.jpeg", "title": "Grafana" },
+      { "url": "resources.jpeg", "title": "Resources" }
+    ]
+  }
+]

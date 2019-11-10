@@ -2,11 +2,11 @@ import React from "react";
 import ReactDOM from "react-dom";
 
 import Conference from "./Conference";
-import data from '../data/conferences.json';
+import conferences from '../data/conferences.json';
 
 class NextConferences extends React.Component {
   pendingConferences() {
-    return data.conferences.filter((conference) =>
+    return conferences.filter((conference) =>
       conference.status === "pending"
     );
   }

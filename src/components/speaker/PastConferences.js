@@ -2,11 +2,11 @@ import React from "react";
 import ReactDOM from "react-dom";
 
 import CollapsibleConference from "./CollapsibleConference";
-import data from '../data/conferences.json';
+import conferences from '../data/conferences.json';
 
 class PastConferences extends React.Component {
   pastConferences() {
-    return data.conferences.filter((conference) =>
+    return conferences.filter((conference) =>
       conference.status === "done"
     );
   }
