@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Portuguese",
+    "level": "native",
+    "flag": "br"
+  },
+  {
+    "name": "English",
+    "level": "advanced",
+    "flag": "us"
+  },
+  {
+    "name": "Italian",
+    "level": "advanced",
+    "flag": "it"
+  },
+  {
+    "name": "French",
+    "level": "basic",
+    "flag": "fr"
+  }
+]

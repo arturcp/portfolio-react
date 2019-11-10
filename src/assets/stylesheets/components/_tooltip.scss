@@ -40,6 +40,10 @@ span.tooltip {
         /* Bump it up above the span element */
     margin-left: -0.5em;
         /* Center the arrow, given that it has been moved left 50% */
+
+    @media screen and (max-width: 600px) {
+      display: none;
+    }
 }
 
 .tooltip:after {
@@ -56,10 +60,32 @@ span.tooltip {
     color: white;
     text-align: center;
     font-size: 0.75em;
+
+    @media screen and (max-width: 600px) {
+      display: none;
+    }
 }
 
 .wrap-for-tooltip {
   width: 100%;
   text-align: center;
   margin: 50px auto;
+}
+
+
+/* For Skills */
+.page-left {
+  .tooltip:after {
+    width: 7.5em;
+    padding: 1em 0.5em;
+    margin-left: -1.75em;
+  }
+
+  .wrap-for-tooltip {
+    .tooltip:after {
+      width: 13.5em;
+      padding: 1em 0.5em;
+      margin-left: -6em;
+    }
+  }
 }

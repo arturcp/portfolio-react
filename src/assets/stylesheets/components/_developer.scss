@@ -95,6 +95,10 @@
 
 .flag--spaced {
 	margin-right: 15px;
+
+	@media screen and (max-width: 600px) {
+		margin-right: 5px;
+	}
 }
 
 #writing ul li {

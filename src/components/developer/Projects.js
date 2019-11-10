@@ -38,7 +38,7 @@ class Projects extends React.Component {
     );
 
     return(
-      <section>
+      <div>
         <Collapsible id="social-projects" title="Social projects">
           {socialProjects}
         </Collapsible>
@@ -50,7 +50,7 @@ class Projects extends React.Component {
 
           {generalProjects}
         </Collapsible>
-      </section>
+      </div>
     )
   }
 }
