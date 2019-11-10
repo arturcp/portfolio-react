@@ -259,7 +259,11 @@
         "weekDay": "Tuesday"
       },
       "paragraphs": [
-        "We can offer a one-size-fits-all product, or we can truly understand our users and offer something valuable and customized to their needs. Geolocation is the key to learn what is going on around them to make better, user-centric decisions."
+        "We can offer a one-size-fits-all product, or we can truly understand our users and offer something valuable and customized to their needs. Geolocation is the key to learn what is going on around them to make better, user-centric decisions.",
+        "Each time more we need to offer products that deeply relate to the users. The age of the one-size-fits-all is gone.",
+        "In the company I work for, we started the year full of ideas to improve the products we offer. Our mantra is to sell an insurance “like you”, but to do this we have to know better our users, to understand their needs to be a little more predictive.",
+        "Geolocation can help you to deliver exactly what your users need based on the surroundings of where they live or where they are.",
+        "This presentation aims to jump-start developers in the Geolocation world, walking through the main concepts and jumping straight into the code."
       ],
       "icons": {
         "location": {
@@ -294,7 +298,11 @@
         "weekDay": "Friday"
       },
       "paragraphs": [
-        "We can offer a one-size-fits-all product, or we can truly understand our users and offer something valuable and customized to their needs. Geolocation is the key to learn what is going on around them to make better, user-centric decisions."
+        "We can offer a one-size-fits-all product, or we can truly understand our users and offer something valuable and customized to their needs. Geolocation is the key to learn what is going on around them to make better, user-centric decisions.",
+        "Each time more we need to offer products that deeply relate to the users. The age of the one-size-fits-all is gone.",
+        "In the company I work for, we started the year full of ideas to improve the products we offer. Our mantra is to sell an insurance “like you”, but to do this we have to know better our users, to understand their needs to be a little more predictive.",
+        "Geolocation can help you to deliver exactly what your users need based on the surroundings of where they live or where they are.",
+        "This presentation aims to jump-start developers in the Geolocation world, walking through the main concepts and jumping straight into the code."
       ],
       "icons": {
         "location": {
@@ -336,7 +344,9 @@
         "weekDay": "Friday"
       },
       "paragraphs": [
-        "Focused on fostering the Ruby programming language and the robust community that has sprung up around it, RubyConf brings together Rubyists both established and new to discuss emerging ideas, collaborate, and socialize."
+        "We can take a glimpse at our applications or we can truly see them. We have a choice.",
+        "Our path is laden with problems and, when they arise, the first place to run is the log. The log is straightforward when the systems are small, but when we start to scale… the more users we get, the more data we will have to go through, and finding what we need is like staring at a well-stocked library, looking at the book titles, wondering which one could possibly have the information we need.",
+        "I’d like to suggest an alternative: the combination of StatsD, a platform that collects data to build statistics, and Grafana. It allows us to create beautiful, interactive dashboards that support pluggable panels."
       ],
       "promo": {
         "image": "promo.png",
@@ -380,7 +390,9 @@
         "weekDay": "Saturday"
       },
       "paragraphs": [
-        "The Conf is the first international tech conference in Brazil.",
+        "We can take a glimpse at our applications or we can truly see them. We have a choice.",
+        "Our path is laden with problems and, when they arise, the first place to run is the log. The log is straightforward when the systems are small, but when we start to scale… the more users we get, the more data we will have to go through, and finding what we need is like staring at a well-stocked library, looking at the book titles, wondering which one could possibly have the information we need.",
+        "I’d like to suggest an alternative: the combination of StatsD, a platform that collects data to build statistics, and Grafana. It allows us to create beautiful, interactive dashboards that support pluggable panels.",
         "This talk was published on <a href=\"https://www.infoq.com/br/presentations/real-time-monitoring-with-grafana-statsd-and-influxdb\" target=\"_blank\">InfoQ</a>!"
       ],
       "icons": {
@@ -402,6 +414,9 @@
     },
     {
       "name": "Vizir Talks 2017",
+      "city": "São Paulo",
+      "country": "Brazil",
+      "flag": "br",
       "talk": "Moving from a Monolithic to a Microservices Architecture",
       "status": "done",
       "folder": "",
@@ -412,7 +427,9 @@
         "weekDay": "Monday"
       },
       "paragraphs": [
-        "This talk was a revival of the one given on ConFoo and was presented in Portuguese."
+        "In 2006, service oriented architecture (or SOA) was all the crazy, but it failed us. Microservices resemble a lot with SOA, but if SOA didn’t work in the past, why are we back again with the same principles? Are Microservices just SOA in disguise?",
+        "This talk was created to demystify it, showing what was inherited from SOA and what is different now that allows us to resume the journey we abandoned 10 years ago. It will focus on things with which I struggle, in my own experience of moving from the monolith to an army of well-defined microservices.",
+        "Let's go through some of the most important patterns and see how to avoid the most common pitfalls."
       ],
       "icons": {
         "location": {
@@ -439,6 +456,9 @@
       },
       "paragraphs": [
         "As an application grows, the flexibility that inclined us to build a monolith vanishes. The once reliable system is now prone to errors, bugs leak to unexpected places and new features take a considerable time to be delivered. We can get the productivity back by moving to microservices.",
+        "In 2006, service oriented architecture (or SOA) was all the crazy, but it failed us. Microservices resemble a lot with SOA, but if SOA didn’t work in the past, why are we back again with the same principles? Are Microservices just SOA in disguise?",
+        "This talk was created to demystify it, showing what was inherited from SOA and what is different now that allows us to resume the journey we abandoned 10 years ago. It will focus on things with which I struggle, in my own experience of moving from the monolith to an army of well-defined microservices.",
+        "Let's go through some of the most important patterns and see how to avoid the most common pitfalls.",
         "Both talks were evaluated by the public with grade 4 (out of 5). Each presentation received a total of 30 forms with feedback and suggestions to be improved."
       ],
       "icons": {

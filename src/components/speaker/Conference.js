@@ -4,7 +4,6 @@ import ReactDom from "react-dom";
 import Calendar from "./conference/Calendar";
 import Icons from "./conference/Icons";
 import Promo from "./conference/Promo";
-
 import FlagIcon from '../FlagIcon.js'
 
 class Conference extends React.Component {
