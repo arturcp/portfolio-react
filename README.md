@@ -36,6 +36,11 @@ Then, to deploy your new code, do:
   git push live master
 ```
 
+### Digital Ocean
+
+The configuration on Digital Ocean is done using Ansible. Check the repository
+`https://github.com/arturcp/digital-ocean` to know more.
+
 ### Useful links
 
 * Source: [Error 500 Class - freeCodeCamp.org](https://www.freecodecamp.org/news/part-1-react-app-from-scratch-using-webpack-4-562b1d231e75/)
