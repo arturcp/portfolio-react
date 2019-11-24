@@ -30,6 +30,12 @@ your server or your domain.
 
 On Digital Ocean, user is usually `root`.
 
+Before you deploy, make sure you build the code to production:
+
+```
+npm run-script build
+```
+
 Then, to deploy your new code, do:
 
 ```bash
