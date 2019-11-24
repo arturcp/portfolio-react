@@ -16,16 +16,24 @@ npm start
 
 ## To deploy
 
-First, ensure the code is pack in production mode:
+Configure your git
+==================
 
-```
-npm run-script build
+Go to the terminal and, inside the folder of your project, run:
+
+```bash
+  git remote add live ssh://user@mydomain.com/var/repos/arturprado.git
 ```
 
-Then, send code to production:
+where `user` is your digital ocean user and `mydomain` is the ip address of
+your server or your domain.
 
-```
-git push live master
+On Digital Ocean, user is usually `root`.
+
+Then, to deploy your new code, do:
+
+```bash
+  git push live master
 ```
 
 ### Useful links
