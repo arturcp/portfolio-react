@@ -1,6 +1,32 @@
 # portfolio-react
 
+## Execute
 
+First, ensure all libraries are installed:
+
+```
+npm install
+```
+
+Then, start the server:
+
+```
+npm start
+```
+
+## To deploy
+
+First, ensure the code is pack in production mode:
+
+```
+npm run-script build
+```
+
+Then, send code to production:
+
+```
+git push live master
+```
 
 ### Useful links
 
