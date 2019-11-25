@@ -42,7 +42,6 @@
     "purecss": "^1.0.1",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
-    "react-flag-icon-css": "^1.0.25",
     "react-tabs": "^3.0.0"
   }
 }

@@ -11,7 +11,7 @@ class Languages extends React.Component {
   languageBlock(language) {
     return (
       <span className="tooltip" data-tip={`${language.name} - ${language.level}`} key={parameterize(language.name)}>
-        <FlagIcon code={language.flag} size="2x" className="flag--spaced" />
+        <FlagIcon code={language.flag} className="flag--spaced" />
       </span>
     )
   }

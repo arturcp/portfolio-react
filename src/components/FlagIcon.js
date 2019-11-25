@@ -1,6 +1,14 @@
-import * as React from 'react'
-import FlagIconFactory from 'react-flag-icon-css'
+import React from "react";
+import ReactDOM from "react-dom";
 
-const FlagIcon = FlagIconFactory(React, { useCssModules: false })
- 
-export default FlagIcon
+class FlagIcon extends React.Component {
+  render () {
+    const classes = `flag-icon flag-icon-${this.props.code} ${this.props.className}`;
+
+    return(
+      <span className={classes}></span>
+    )
+  }
+}
+
+export default FlagIcon;
