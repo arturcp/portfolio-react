@@ -62,7 +62,7 @@ class ConferenceTabs extends React.Component {
   photos() {
     if (this.props.conference.photos && this.props.conference.photos.length > 0) {
       return(
-        <TabPanel forceRender={true}>
+        <TabPanel forceRender={false}>
           <Suspense fallback={<div>Loading...</div>}>
             <Polaroids conference={this.props.conference} />
           </Suspense>
