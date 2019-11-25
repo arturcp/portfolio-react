@@ -5,12 +5,12 @@ import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 
 import Conference from "../Conference";
-import Promo from "./Promo";
-import Slides from "./Slides";
 
 import {bindGallery} from "../../EventBinder"
 
 const Polaroids = lazy(() => import("./Polaroids"));
+const Slides = lazy(() => import("./Slides"));
+const Promo = lazy(() => import("./Promo"));
 
 class ConferenceTabs extends React.Component {
   photosTab() {
@@ -49,7 +49,9 @@ class ConferenceTabs extends React.Component {
     if (this.props.conference.video) {
       return(
         <TabPanel>
-          <iframe className="talk-video" src={this.props.conference.video} frameBorder="0" allowFullScreen></iframe>
+          <Suspense fallback={<div>Loading...</div>}>
+            <iframe className="talk-video" src={this.props.conference.video} frameBorder="0" allowFullScreen></iframe>
+          </Suspense>
         </TabPanel>
       );
     } else {
@@ -75,7 +77,9 @@ class ConferenceTabs extends React.Component {
     if (this.props.conference.promo) {
       return(
         <TabPanel>
-          <Promo conference={this.props.conference} />
+          <Suspense fallback={<div>Loading...</div>}>
+            <Promo conference={this.props.conference} />
+          </Suspense>
         </TabPanel>
       );
     } else {
@@ -87,7 +91,9 @@ class ConferenceTabs extends React.Component {
     if (this.props.conference.slides) {
       return(
         <TabPanel forceRender={false}>
-          <Slides conference={this.props.conference} collapsibleId={this.props.collapsibleId} />
+          <Suspense fallback={<div>Loading...</div>}>
+            <Slides conference={this.props.conference} collapsibleId={this.props.collapsibleId} />
+          </Suspense>
         </TabPanel>
       );
     } else {
