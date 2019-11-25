@@ -34,6 +34,9 @@
       "tickets": {
         "url": "https://www.buildstuff.lt/get-tickets"
       }
+    },
+    "slides": {
+      "deckId": "57312dc1780b410484d72674b63cc29e"
     }
   },
   {
@@ -71,6 +74,9 @@
       "tickets": {
         "url": "https://www.ukraine.buildstuff.events/get-tickets"
       }
+    },
+    "slides": {
+      "deckId": "57312dc1780b410484d72674b63cc29e"
     }
   },
   {
