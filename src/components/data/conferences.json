@@ -37,7 +37,10 @@
     },
     "slides": {
       "deckId": "57312dc1780b410484d72674b63cc29e"
-    }
+    },
+    "photos": [
+      { "url": "Lithuania/1.jpg", "title": "It works" }
+    ]
   },
   {
     "name": "Build Stuff 2019 - Ukraine",
@@ -77,7 +80,11 @@
     },
     "slides": {
       "deckId": "57312dc1780b410484d72674b63cc29e"
-    }
+    },
+    "photos": [
+      { "url": "Ukraine/1.jpg", "title": "On stage" },
+      { "url": "Ukraine/2.jpg", "title": "Speakers' party" }
+    ]
   },
   {
     "name": "The Conf 2019",
