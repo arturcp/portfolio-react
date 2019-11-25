@@ -11,6 +11,19 @@ class NextConferences extends React.Component {
     );
   }
 
+  header(conferences) {
+    if (conferences.length > 0) {
+      return(
+        <div>
+          <br />
+          <h2>Next events</h2>
+        </div>
+      )
+    } else {
+      return null;
+    }
+  }
+
   render () {
     const conferences = this.pendingConferences().map((conference, index) =>
       <Conference conference={conference} key={`conference-${index}`} />
@@ -18,9 +31,7 @@ class NextConferences extends React.Component {
 
     return(
       <section className="event">
-        <br />
-        <h2>Next events</h2>
-
+        {this.header(conferences)}
         {conferences}
 			</section>
     )
