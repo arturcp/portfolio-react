@@ -30,6 +30,19 @@ your server or your domain.
 
 On Digital Ocean, user is usually `root`. For now, the IP address is `206.189.67.82`.
 
+### The Easy Way
+
+There is a bash script that does all the steps you need to put code in production.
+Just go to the terminal an run:
+
+```
+./bin/deploy.sh
+```
+
+It will also push code to the GitHub.
+
+### The Complete way
+
 Before you deploy, make sure you build the code to production:
 
 ```
