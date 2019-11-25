@@ -3,7 +3,6 @@ import ReactDom from "react-dom";
 
 import MediaInformation from "./conference/MediaInformation";
 import Conference from "./Conference";
-import Polaroids from "./conference/Polaroids";
 import ConferenceTabs from "./conference/ConferenceTabs";
 import {parameterize} from '../Utils'
 

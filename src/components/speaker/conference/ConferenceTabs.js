@@ -1,15 +1,17 @@
-import React from "react";
+import React, { Suspense, lazy } from "react";
 import ReactDom from "react-dom";
 
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 
 import Conference from "../Conference";
-import Polaroids from "./Polaroids";
+// import Polaroids from "./Polaroids";
 import Promo from "./Promo";
 import Slides from "./Slides";
 
-import {bindGallery} from '../../EventBinder'
+import {bindGallery} from "../../EventBinder"
+
+const Polaroids = lazy(() => import("./Polaroids"));
 
 class ConferenceTabs extends React.Component {
   photosTab() {
@@ -61,7 +63,9 @@ class ConferenceTabs extends React.Component {
     if (this.props.conference.photos && this.props.conference.photos.length > 0) {
       return(
         <TabPanel forceRender={true}>
-          <Polaroids conference={this.props.conference} />
+          <Suspense fallback={<div>Loading...</div>}>
+            <Polaroids conference={this.props.conference} />
+          </Suspense>
         </TabPanel>
       );
     } else {
