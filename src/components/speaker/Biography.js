@@ -8,7 +8,7 @@ class Biography extends React.Component {
         <h2>Speaker bio</h2>
 
         <p>
-          Artur is a developer, a speaker, and a writer. He has 8 years of
+          Artur is a developer, a speaker, and a writer. He has 10 years of
           experience with Ruby on Rails and 5 with C#. He worked in the largest
           magazine publisher in Brazil, building high-performance websites
           like Exame.com, with 90 million page views per month and 6 million
