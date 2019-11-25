@@ -48,7 +48,13 @@ export const bindEvents = (string) => {
 };
 
 export const bindGallery = (string) => {
-  var myLightbox = GLightbox({
-    selector: "glightbox"
-  });
+  setTimeout(
+    function() {
+      var myLightbox = GLightbox({
+        selector: "glightbox"
+      });
+    }
+    .bind(this),
+    3000
+  );
 };

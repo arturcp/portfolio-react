@@ -5,7 +5,6 @@ import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 
 import Conference from "../Conference";
-// import Polaroids from "./Polaroids";
 import Promo from "./Promo";
 import Slides from "./Slides";
 
@@ -45,7 +44,6 @@ class ConferenceTabs extends React.Component {
       return null;
     }
   }
-
 
   iframeVideo() {
     if (this.props.conference.video) {
@@ -101,7 +99,7 @@ class ConferenceTabs extends React.Component {
     const conference = this.props.conference;
 
     return(
-      <Tabs onSelect={index => bindGallery()}>
+      <Tabs onSelect={index => bindGallery(index)}>
         <TabList>
           <Tab>Description</Tab>
           {this.videoTab()}
