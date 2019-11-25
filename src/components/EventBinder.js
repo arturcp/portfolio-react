@@ -55,6 +55,6 @@ export const bindGallery = (string) => {
       });
     }
     .bind(this),
-    1500
+    1000
   );
 };
