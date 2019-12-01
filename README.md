@@ -19,13 +19,13 @@ npm start
 Configure your git
 ==================
 
-Go to the terminal and, inside the folder of your project, run:
+Go to the terminal and, from inside the folder of your project, run:
 
 ```bash
   git remote add live ssh://user@mydomain.com/var/repos/arturprado.git
 ```
 
-where `user` is your digital ocean user and `mydomain` is the ip address of
+where `user` is your digital ocean's user and `mydomain` is the ip address of
 your server or your domain.
 
 On Digital Ocean, user is usually `root`. For now, the IP address is `206.189.67.82`.
