@@ -23,11 +23,15 @@ class Project extends React.Component {
     const image = require(`../../assets/images/projects/github.png`),
         project = this.props.project;
 
-    return(
-      <a href={project.github} target="_blank">
-        <img src={image} className="thumbnail" />
-      </a>
-    )
+    if (project.github) {
+      return(
+        <a href={project.github} target="_blank">
+          <img src={image} className="thumbnail" />
+        </a>
+      )
+    } else {
+      return null;
+    }
   }
 
   render() {

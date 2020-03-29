@@ -10,6 +10,7 @@ class SocialMedia extends React.Component {
 				<a href="https://www.facebook.com/artur.caliendoprado" className="fa fa-facebook" target="_blank"></a>
 				<a href="https://www.linkedin.com/in/artur-caliendo-prado-3a99ab102/" className="fa fa-linkedin" target="_blank"></a>
 				<a href="https://github.com/arturcp" className="fa fa-github-alt" target="_blank"></a>
+        <a href="https://elixir-da-vida-eterna.now.sh/" className="fa fa-feed" target="_blank"></a>
 			</section>
     )
   }

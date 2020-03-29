@@ -39,6 +39,10 @@ class WritingSkills extends React.Component {
         {this.listLinks(writings.youse)}
 
         <p>
+          I have just started a new blog called <a href="https://elixir-da-vida-eterna.now.sh/" target="_blank">Elixir da vida eterna</a>, where I am writing everything I have been learning about <a href="https://elixir-lang.org/" target="_blank">Elixir</a> and <a href="https://www.phoenixframework.org/" target="_blank">Pheonix</a>.
+        </p>
+
+        <p>
           But I also write in English. I maintain <a href="https://medium.com/@artur.prado" target="_blank">my own blog on Medium</a> and, even though I have not been writing as much as I want, I like it very much. Here are my main articles:
         </p>
 

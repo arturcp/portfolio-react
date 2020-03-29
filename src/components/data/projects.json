@@ -22,9 +22,28 @@
           "This project is a tool built from scratch and donated to the organization to let them manage campaigns to raise funds and receive donations."
         ]
       }
+    },
+    {
+      "name": "Obra do berço",
+      "url": "https://obradoberco-qa.herokuapp.com/",
+      "description": {
+        "paragraphs": [
+          "Organização da sociedade civil, sem fins econômicos, que oferece por meio de Trabalho Social e Trabalho Socioeducativo, proteção social básica a crianças, adolescentes, jovens, adultos e famílias provenientes de comunidades de alta e altíssima privação social da zona sul do Município de São Paulo."
+        ]
+      }
     }
   ],
   "general": [
+    {
+      "name": "V de Vegança",
+      "url": "https://vdeveganca.com.br",
+      "description": {
+        "paragraphs": [
+          "The veg world has a new place for the community.",
+          "If you want to know if something is vegan, vegetarian or just know the nutrients of something, V de vegança is the place to go."
+        ]
+      }
+    },
     {
       "name": "Skoob Export Tool",
       "url": "https://skoob-export.herokuapp.com/",
@@ -107,6 +126,16 @@
           "Arenah is an RPG engine to allow people to play online. It started many years ago on Orkut, moved to a PHP forum and then moved to its own, full-fledged website.",
           "Version after version, it evolved to allow people to play in real time and to build the character sheets (including complex rules).",
           "I have videos of the website. Take a look at <a href=\"https://arenah-demo.herokuapp.com/tour/jogadores\" target=\"_blank\">the player's area</a> and <a href=\"https://arenah-demo.herokuapp.com/tour/mestres\" target=\"_blank\">the game master's area</a>."
+        ]
+      }
+    },
+    {
+      "name": "Portfolio React",
+      "url": "https://arturprado.com",
+      "github": "https://github.com/arturcp/portfolio-react",
+      "description": {
+        "paragraphs": [
+          "This is the source code for this online portfolio. It was rewritten using React, the former version can stil be found <a href=\"https://github.com/arturcp/portfolio\" target=\"_blank\">here</a>."
         ]
       }
     }
