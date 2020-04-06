@@ -147,7 +147,7 @@
       "preview": "jira-wip-plugin.png",
       "description": {
         "paragraphs": [
-          "Add new features to your Jira board: count items in WIP (and you define which columns belong to the wip), warn about wip limits and change the color of cards that are lingering for too long in the same lane."
+          "Add new features to your Jira board: count items in WIP (you define which columns belong to the wip), warn about wip limits and change the color of cards that are lingering for too long in the same lane."
         ]
       }
     }
