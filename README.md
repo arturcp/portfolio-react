@@ -55,6 +55,12 @@ Then, to deploy your new code, do:
   git push live master
 ```
 
+### To add libraries
+
+```
+npm i babel-core babel-loader babel-preset-env babel-preset-react -D
+```
+
 ### Digital Ocean
 
 The configuration on Digital Ocean is done using Ansible. Check the repository

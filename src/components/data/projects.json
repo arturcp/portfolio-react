@@ -133,9 +133,21 @@
       "name": "Portfolio React",
       "url": "https://arturprado.com",
       "github": "https://github.com/arturcp/portfolio-react",
+      "preview": "portfolio-preview.png",
       "description": {
         "paragraphs": [
           "This is the source code for this online portfolio. It was rewritten using React, the former version can stil be found <a href=\"https://github.com/arturcp/portfolio\" target=\"_blank\">here</a>."
+        ]
+      }
+    },
+    {
+      "name": "Jira WIP Plugin",
+      "url": "https://github.com/arturcp/jira-wip-plugin",
+      "github": "https://github.com/arturcp/jira-wip-plugin",
+      "preview": "jira-wip-plugin.png",
+      "description": {
+        "paragraphs": [
+          "Add new features to your Jira board: count items in WIP (and you define which columns belong to the wip), warn about wip limits and change the color of cards that are lingering for too long in the same lane."
         ]
       }
     }

@@ -34,6 +34,19 @@ class Project extends React.Component {
     }
   }
 
+  preview() {
+    const project = this.props.project;
+
+    if (project.preview) {
+      const image = require(`../../assets/images/projects/preview/${project.preview}`);
+      return(
+        <img src={image} className="project-preview" />
+      )
+    } else {
+      return null;
+    }
+  }
+
   render() {
     const project = this.props.project;
 
@@ -47,6 +60,7 @@ class Project extends React.Component {
 				</p>
 
         {writeParagraphs(project.name, project.description.paragraphs)}
+        {this.preview()}
 			</section>
     )
   }
