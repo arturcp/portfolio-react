@@ -39,7 +39,7 @@ class WritingSkills extends React.Component {
         {this.listLinks(writings.youse)}
 
         <p>
-          I have just started a new blog called <a href="https://elixir-da-vida-eterna.now.sh/" target="_blank">Elixir da vida eterna</a>, where I am writing everything I have been learning about <a href="https://elixir-lang.org/" target="_blank">Elixir</a> and <a href="https://www.phoenixframework.org/" target="_blank">Pheonix</a>.
+          I have just started a new blog called <a href="https://elixir-da-vida-eterna.now.sh/" target="_blank">Elixir da vida eterna</a>, where I am writing everything I have been learning about <a href="https://elixir-lang.org/" target="_blank">Elixir</a> and <a href="https://www.phoenixframework.org/" target="_blank">Phoenix</a>.
         </p>
 
         <p>
