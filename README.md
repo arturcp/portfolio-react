@@ -22,13 +22,13 @@ Configure your git
 Go to the terminal and, from inside the folder of your project, run:
 
 ```bash
-  git remote add live ssh://user@mydomain.com/var/repos/arturprado.git
+  git remote add live ssh://user@mydomain.com/var/repos/portfolio.git
 ```
 
 where `user` is your digital ocean's user and `mydomain` is the ip address of
 your server or your domain.
 
-On Digital Ocean, user is usually `root`. For now, the IP address is `206.189.67.82`.
+On Digital Ocean, user is usually `root`. For now, the IP address is `167.71.177.56`.
 
 ### The Easy Way
 
