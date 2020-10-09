@@ -1,5 +1,30 @@
 [
   {
+    "name": "Obra do Berço 2020",
+    "city": "Remote",
+    "country": "Remote",
+    "flag": "br",
+    "talk": "Technology: what is in the end of the road?",
+    "status": "pending",
+    "folder": "2020-obra-do-berco",
+    "language": "Portuguese",
+    "date": {
+      "month": "October",
+      "day": "20",
+      "weekDay": "Tuesday"
+    },
+    "paragraphs": [
+      "Technology is the wheel of change, but where is it leading us? Are we even in charge?",
+      "Let's take a look at Kevin Kelly's ideas present in the book \"Inevitable\", going through the 12 forces that will change our lives forever.",
+      "This talk will be delivered to a young audience that are under the protection of a non-profit organization called <a href=\"http://www.obradoberco.org.br/\" target=\"_blank\">Obra do Berço</a>."
+    ],
+    "icons": {
+      "website": {
+        "url": "http://www.obradoberco.org.br/"
+      }
+    }
+  },
+  {
     "name": "Build Stuff 2019 - Lithuania",
     "city": "Vilnius",
     "country": "Lithuania",
