@@ -28,7 +28,7 @@ Go to the terminal and, from inside the folder of your project, run:
 where `user` is your digital ocean's user and `mydomain` is the ip address of
 your server or your domain.
 
-On Digital Ocean, user is usually `root`. For now, the IP address is `167.71.177.56`.
+On Digital Ocean, user is usually `root`.
 
 ### The Easy Way
 
