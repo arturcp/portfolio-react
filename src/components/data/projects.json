@@ -150,6 +150,17 @@
           "Add new features to your Jira board: count items in WIP (you define which columns belong to the wip), warn about wip limits and change the color of cards that are lingering for too long in the same lane."
         ]
       }
+    },
+    {
+      "name": "Github Pull Requests - Chrome Plugin",
+      "url": "https://github.com/arturcp/pull-requests-api",
+      "github": "https://github.com/arturcp/pull-requests-plugin",
+      "preview": "pull-requests-plugin.png",
+      "description": {
+        "paragraphs": [
+          "Keep track of the pull requests of your favorite developers. This is a Chrome plugin and uses Heroku to host the API."
+        ]
+      }
     }
   ]
 }
