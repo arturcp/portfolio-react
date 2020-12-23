@@ -8,7 +8,7 @@ import skills from '../data/skills.json';
 class Skills extends React.Component {
   render() {
     const skillsList = skills.map((skill, index) =>
-      <Skill name={skill.name} image={skill.image} key={`skill-${index}`} />
+      <Skill name={skill.name} image={skill.image} key={`skill-${index}`} extraClass={skill.extraClass} />
     );
 
     return(

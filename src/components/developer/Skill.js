@@ -7,9 +7,11 @@ class Skill extends React.Component {
   }
 
   render() {
+    let extraClass = this.props.extraClass ? this.props.extraClass : ''
+
     return(
       <span className="tooltip" data-tip={this.props.name}>
-        <img src={this.image()} className="skill-icon" />
+        <img src={this.image()} className={`skill-icon ${extraClass}`} />
       </span>
     )
   }
