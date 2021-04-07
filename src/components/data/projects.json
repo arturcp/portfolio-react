@@ -33,6 +33,19 @@
       }
     }
   ],
+  "openSource": [
+    {
+      "name": "Postgresql backup gem",
+      "url": "https://rubygems.org/gems/postgresql-backup",
+      "github": "https://github.com/arturcp/postgresql-backup",
+      "description": {
+        "paragraphs": [
+          "In every project I create, the same need arises: I need to recurrently backup the database and store it somewhere.",
+          "To solve this, in one of my projects, I created rake tasks that connected to AWS S3 and did the job for me. Then, I realized that this could help other projets, even ones that are not mine! This gem adds two rake tasks to a project, dump and restore, and allows you to choose between using the file system or S3."
+        ]
+      }
+    }
+  ],
   "general": [
     {
       "name": "V de Vegança",

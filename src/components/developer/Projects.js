@@ -31,6 +31,12 @@ class Projects extends React.Component {
       </div>
     );
 
+    const openSourceProjects = inGroupsOf(projects.openSource, 2).map((projectsGroup, groupIndex) =>
+      <div className="pure-g" key={`open-source-project-line-${groupIndex}`}>
+        {this.projectsFromGroup(projectsGroup)}
+      </div>
+    );
+
     const generalProjects = inGroupsOf(projects.general, 2).map((projectsGroup, groupIndex) =>
       <div className="pure-g" key={`general-project-line-${groupIndex}`}>
         {this.projectsFromGroup(projectsGroup)}
@@ -41,6 +47,10 @@ class Projects extends React.Component {
       <div>
         <Collapsible id="social-projects" title="Social projects">
           {socialProjects}
+        </Collapsible>
+
+        <Collapsible id="open-source-projects" title="Open source projects">
+          {openSourceProjects}
         </Collapsible>
 
         <Collapsible id="general-projects" title="General projects">
