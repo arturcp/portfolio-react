@@ -28,7 +28,17 @@
       "url": "https://obradoberco-qa.herokuapp.com/",
       "description": {
         "paragraphs": [
-          "Organização da sociedade civil, sem fins econômicos, que oferece por meio de Trabalho Social e Trabalho Socioeducativo, proteção social básica a crianças, adolescentes, jovens, adultos e famílias provenientes de comunidades de alta e altíssima privação social da zona sul do Município de São Paulo."
+          "Non-profit civil society organization that offers, through Social Work and Socio-Educational Work, basic social protection for children, teenagers, youth, adults and families from communities of high and very high social deprivation in the south of the city of São Paulo."
+        ]
+      }
+    },
+    {
+      "name": "Catálogo de alunos da Obra do Berço",
+      "url": "https://alunos-da-obra-do-berco.herokuapp.com/",
+      "github": "https://github.com/arturcp/alunos-da-obra-do-berco",
+      "description": {
+        "paragraphs": [
+          "The non-profit organization Obra do Berço needed a simple tool to catalog students and filter data. This project provides these functionalities and more, making their daily tasks easier"
         ]
       }
     }
