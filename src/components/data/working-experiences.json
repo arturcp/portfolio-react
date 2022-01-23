@@ -1,10 +1,38 @@
 [
   {
+    "company": "The RealReal",
+    "image": "trr.jpg",
+    "description": {
+      "paragraphs": [
+        "The RealReal, Inc. is an online and brick-and-mortar marketplace for authenticated luxury consignment.[2] Based on the circular economy,"
+      ]
+    },
+    "role": "Senior Software Engineer",
+    "period": "Started in September 2022",
+    "urls": [
+      { "url": "https://therealreal.com/", "text": "Official website" }
+    ]
+  },
+  {
+    "company": "SumUp",
+    "image": "sumup.jpg",
+    "description": {
+      "paragraphs": [
+        "SumUp is a mobile payments company headquartered in London, United Kingdom"
+      ]
+    },
+    "role": "Software Engineer V",
+    "period": "From January to September, 2022",
+    "urls": [
+      { "url": "https://sumup.com.br/", "text": "Official website" }
+    ]
+  },
+  {
     "company": "Youse",
     "image": "youse.png",
     "description": {
       "paragraphs": [
-        "Youse is a startup, a digital platform of Caixa Seguradora that aims to change how insurances are sold in Brazil. We focus on innovation and base our operation on agile methodologies."
+        "Youse is a startup, a digital platform of Caixa Seguradora that aims to change how insurances are sold in Brazil. It focus on innovation and base its operation on agile methodologies."
       ]
     },
     "role": "IT Specialist II",

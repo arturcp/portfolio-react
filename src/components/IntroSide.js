@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 
 import Avatar from "./Avatar";
 
-class IntroSideLeft extends React.Component {
+class IntroSide extends React.Component {
   reverseDirection() {
     return this.props.direction === 'left' ? 'right' : 'left';
   }
@@ -24,4 +24,4 @@ class IntroSideLeft extends React.Component {
   }
 }
 
-export default IntroSideLeft;
+export default IntroSide;

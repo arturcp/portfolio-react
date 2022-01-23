@@ -25,13 +25,31 @@ module.exports = {
         use: ["style-loader", "css-loader", "sass-loader"]
       },
       {
-        test: /\.(ico|jpg|jpeg|png|gif)$/,
-        use: "file-loader"
+        test: /\.(png|jpe?g|gif)$/i,
+        use: [
+          {
+            loader: 'file-loader',
+          },
+        ],
       },
+      // {
+      //   test: /\.(ico|jpg|jpeg|png|gif)$/,
+      //   use: [
+      //     {
+      //       loader: "file-loader"
+      //     }
+
+      //   ]
+      // },
       {
          test: /\.(eot|woff|woff2|ttf|svg)$/,
-         loaders: [
-           "url-loader"
+         use: [
+           {
+            loader: 'url-loader',
+            options: {
+              limit: 8192
+            }
+           }
          ]
        }
     ]

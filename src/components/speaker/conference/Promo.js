@@ -1,5 +1,4 @@
 import React from "react";
-import ReactDom from "react-dom";
 
 import {parameterize} from '../../Utils'
 
@@ -12,7 +11,7 @@ class Promo extends React.Component {
 
   render() {
     if (this.promo) {
-      const promoImage = require(`../../../assets/images/conferences/${this.props.conference.folder}/${this.promo.image}`);
+      const promoImage = `images/conferences/${this.props.conference.folder}/${this.promo.image}`;
 
       return (
         <section className="text-center">
