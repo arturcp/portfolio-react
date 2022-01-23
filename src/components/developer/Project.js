@@ -1,17 +1,16 @@
 import React from "react";
 import ReactDom from "react-dom";
 
-import {parameterize, writeParagraphs} from '../Utils'
+import {writeParagraphs} from '../Utils'
 
 class Project extends React.Component {
   projectUrl() {
-      const image = require(`../../assets/images/projects/url.png`),
-          project = this.props.project;
+      const project = this.props.project;
 
       if (project.url) {
         return(
           <a href={project.url} target="_blank">
-            <img src={image} className="thumbnail" />
+            <img src={"images/projects/url.png"} className="thumbnail" />
           </a>
         )
       } else {
@@ -20,13 +19,12 @@ class Project extends React.Component {
   }
 
   github() {
-    const image = require(`../../assets/images/projects/github.png`),
-        project = this.props.project;
+    const project = this.props.project;
 
     if (project.github) {
       return(
         <a href={project.github} target="_blank">
-          <img src={image} className="thumbnail" />
+          <img src="images/projects/github.png" className="thumbnail" />
         </a>
       )
     } else {
@@ -38,9 +36,8 @@ class Project extends React.Component {
     const project = this.props.project;
 
     if (project.preview) {
-      const image = require(`../../assets/images/projects/preview/${project.preview}`);
       return(
-        <img src={image} className="project-preview" />
+        <img src={`images/projects/preview/${project.preview}`} className="project-preview" />
       )
     } else {
       return null;

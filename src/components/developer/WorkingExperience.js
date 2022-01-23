@@ -1,13 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
-
 import {parameterize, writeParagraphs} from '../Utils'
 
 class WorkingExperience extends React.Component {
-  image() {
-    return require(`../../assets/images/companies/${this.props.experience.image}`);
-  }
-
   links() {
     const experience = this.props.experience;
 
@@ -22,7 +17,7 @@ class WorkingExperience extends React.Component {
     return(
       <section id={parameterize(experience.company)} className="work-experience">
         <h3>
-          <img src={this.image()} className="company-logo"/> {experience.company}
+          <img src={`images/companies/${this.props.experience.image}`} className="company-logo"/> {experience.company}
         </h3>
 
         {writeParagraphs(experience.company, experience.description.paragraphs)}

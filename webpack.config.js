@@ -26,12 +26,22 @@ module.exports = {
       },
       {
         test: /\.(ico|jpg|jpeg|png|gif)$/,
-        use: "file-loader"
+        use: [
+          {
+            loader: "file-loader"
+          }
+
+        ]
       },
       {
          test: /\.(eot|woff|woff2|ttf|svg)$/,
-         loaders: [
-           "url-loader"
+         use: [
+           {
+            loader: 'url-loader',
+            options: {
+              limit: 8192
+            }
+           }
          ]
        }
     ]
