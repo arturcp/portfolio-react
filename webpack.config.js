@@ -25,22 +25,14 @@ module.exports = {
         use: ["style-loader", "css-loader", "sass-loader"]
       },
       {
-        test: /\.(png|jpe?g|gif)$/i,
+        test: /\.(ico|jpg|jpeg|png|gif)$/,
         use: [
           {
-            loader: 'file-loader',
-          },
-        ],
-      },
-      // {
-      //   test: /\.(ico|jpg|jpeg|png|gif)$/,
-      //   use: [
-      //     {
-      //       loader: "file-loader"
-      //     }
+            loader: "file-loader"
+          }
 
-      //   ]
-      // },
+        ]
+      },
       {
          test: /\.(eot|woff|woff2|ttf|svg)$/,
          use: [
