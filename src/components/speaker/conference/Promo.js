@@ -14,8 +14,8 @@ class Promo extends React.Component {
       const promoImage = `images/conferences/${this.props.conference.folder}/${this.promo.image}`;
 
       return (
-        <section className="text-center">
-          <img src={promoImage} className={`promo-image glightbox ${parameterize(this.props.conference.name)}`} alt={this.promo.alt} />
+        <section className="text-center glightbox">
+          <img src={promoImage} className={`promo-image ${parameterize(this.props.conference.name)}`} alt={this.promo.alt} />
         </section>
       )
     } else {

@@ -26,7 +26,6 @@ export const bindEvents = (string) => {
 
   var avatars = document.querySelectorAll("[data-avatar-trigger]");
   avatars.forEach(function(avatar) {
-    var elementToTrigger = avatar.getAttribute("data-avatar-trigger");
     avatar.addEventListener("click", function(event) {
       var splitLayout = document.getElementById("splitlayout");
 
@@ -47,14 +46,8 @@ export const bindEvents = (string) => {
   });
 };
 
-export const bindGallery = (string) => {
-  setTimeout(
-    function() {
-      var myLightbox = GLightbox({
-        selector: "glightbox"
-      });
-    }
-    .bind(this),
-    1000
-  );
+export const bindGallery = () => {
+  setTimeout(() => {
+    GLightbox({});
+  }, 1000);
 };

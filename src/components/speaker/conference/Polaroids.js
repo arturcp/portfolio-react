@@ -9,8 +9,8 @@ class Polaroids extends React.Component {
 
           return(
             <li key={`conference-${this.props.conference.name}-photo-${index}`}>
-              <a href={image} title={photo.title}>
-                <img src={image} className="glightbox" />
+              <a href={image} title={photo.title} className="glightbox">
+                <img src={image} />
               </a>
             </li>
           )
