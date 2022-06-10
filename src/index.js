@@ -1,5 +1,5 @@
 import React from "react";
-import ReactDOM from "react-dom";
+import ReactDOM from "react-dom/client";
 
 import './assets/stylesheets/application.scss'
 
@@ -13,4 +13,8 @@ const Container = () => {
   );
 };
 
-ReactDOM.render(<Container />, document.getElementById("index"));
+const root = ReactDOM.createRoot(document.getElementById('index'));
+
+root.render(
+  <Container />
+);
