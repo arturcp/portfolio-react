@@ -25,7 +25,6 @@
     },
     {
       "name": "Obra do berço",
-      "url": "https://obradoberco-qa.herokuapp.com/",
       "description": {
         "paragraphs": [
           "Non-profit civil society organization that offers, through Social Work and Socio-Educational Work, basic social protection for children, teenagers, youth, adults and families from communities of high and very high social deprivation in the south of the city of São Paulo."
@@ -33,8 +32,7 @@
       }
     },
     {
-      "name": "Catálogo de alunos da Obra do Berço",
-      "url": "https://alunos-da-obra-do-berco.herokuapp.com/",
+      "name": "Catálogo - Obra do Berço",
       "github": "https://github.com/arturcp/alunos-da-obra-do-berco",
       "description": {
         "paragraphs": [
@@ -54,6 +52,48 @@
           "To solve this, in one of my projects, I created rake tasks that connected to AWS S3 and did the job for me. Then, I realized that this could help other projets, even ones that are not mine! This gem adds two rake tasks to a project, dump and restore, and allows you to choose between using the file system or S3."
         ]
       }
+    },
+    {
+      "name": "Skoob Export Tool",
+      "url": "https://skoob-exporter.colabs.dev",
+      "github": "https://github.com/arturcp/skoob-exporter",
+      "description": {
+        "paragraphs": [
+          "<a href=\"http://www.skoob.com.br\" target=\"_blank\">Skoob</a> is a social network for readers.",
+          "It has no public API and does not provide an easy way to export your books to other social networks like Goodreads.",
+          "To fix that, this project gets information about all your books and generates a CSV file in the format Goodreads expect, so you can easily import them."
+        ]
+      }
+    },
+    {
+      "name": "Pull Requests - Plugin",
+      "github": "https://github.com/arturcp/pull-requests-plugin",
+      "preview": "pull-requests-plugin.png",
+      "description": {
+        "paragraphs": [
+          "Keep track of the pull requests of your favorite developers. This is a Chrome plugin and uses Dokku to host the API."
+        ]
+      }
+    },
+    {
+      "name": "Dokku provisioner",
+      "github": "https://github.com/arturcp/dokku-provisioner",
+      "description": {
+        "paragraphs": [
+          "Dokku is amazing tool to leverage the infrastructure for your projects. However, it takes some time to learn all the commands.",
+          "To simplify things, I built a ruby script that asks a few questions and shows the entire list of commands you need to host your projects."
+        ]
+      }
+    },
+    {
+      "name": "Kindle clippings report",
+      "github": "https://github.com/arturcp/Kindle-Clippings-Report",
+      "description": {
+        "paragraphs": [
+          "<a href=\"https://www.amazon.com.br/dp/B0186FEYKW\" target=\"_blank\">Amazon Kindle</a> is an ebook reader that works with the e-ink techonology, providing a unique experience that other electronic devices don't have.",
+          "You have the option to highlight excerpts of texts and make notes, and it generates a .txt file inside the device. However, it is not easy to find notes and organize them. The idea is to extract data from the device and organize it by author and book."
+        ]
+      }
     }
   ],
   "general": [
@@ -68,28 +108,6 @@
       }
     },
     {
-      "name": "Skoob Export Tool",
-      "url": "https://skoob-export.herokuapp.com/",
-      "github": "https://github.com/arturcp/skoob-exporter",
-      "description": {
-        "paragraphs": [
-          "<a href=\"http://www.skoob.com.br\" target=\"_blank\">Skoob</a> is a social network for readers.",
-          "It has no public API and does not provide an easy way to export your books to other social networks like Goodreads.",
-          "To fix that, this project gets information about all your books and generates a CSV file in the format Goodreads expect, so you can easily import them."
-        ]
-      }
-    },
-    {
-      "name": "Kindle clippings report",
-      "github": "https://github.com/arturcp/Kindle-Clippings-Report",
-      "description": {
-        "paragraphs": [
-          "<a href=\"https://www.amazon.com.br/dp/B0186FEYKW\" target=\"_blank\">Amazon Kindle</a> is an ebook reader that works with the e-ink techonology, providing a unique experience that other electronic devices don't have.",
-          "You have the option to highlight excerpts of texts and make notes, and it generates a .txt file inside the device. However, it is not easy to find notes and organize them. The idea is to extract data from the device and organize it by author and book."
-        ]
-      }
-    },
-    {
       "name": "Hackathon bot",
       "github": "https://github.com/arturcp/hackaton_collaboration_bot",
       "description": {
@@ -100,38 +118,7 @@
       }
     },
     {
-      "name": "Legacy of Joran",
-      "url": "http://joran.arenah.com.br",
-      "description": {
-        "paragraphs": [
-          "I love to read and write, and I wrote a medieval fiction book that I intend to publish soon. I have been working hard to make this dream come true.",
-          "This project is the draft of the book's website, there are lots of things to improve, but it is going in the right direction."
-        ]
-      }
-    },
-    {
-      "name": "TED Ed puzzles",
-      "github": "https://github.com/arturcp/puzzles",
-      "description": {
-        "paragraphs": [
-          "<a href=\"https://ed.ted.com\" target=\"_blank\">TED Ed</a> is TED’s youth and education initiative. TED-Ed’s mission is to spark and celebrate the ideas of teachers and students around the world. Everything they do supports learning — from producing a growing library of original animated videos, to providing an international platform for teachers to create their own interactive lessons, to helping curious students around the globe bring TED to their schools and gain presentation literacy skills."
-        ]
-      }
-    },
-    {
-      "name": "Exame.com",
-      "url": "http://exame.abril.com.br/",
-      "description": {
-        "paragraphs": [
-          "<a href=\"http://exame.abril.com.br/\" target=\"_blank\">EXAME.com</a>",
-          "is the leading online source for information on business, economics, career, technology, entrepreneurship and personal finance in Brazil.",
-          "It is a high availability website. It reached 86 millions of page views and 5.8 millions of unique visitors per month."
-        ]
-      }
-    },
-    {
       "name": "Remembrall",
-      "url": "https://youse-remembrall.herokuapp.com/",
       "github": "https://github.com/arturcp/remembrall",
       "description": {
         "paragraphs": [
@@ -142,13 +129,13 @@
     },
     {
       "name": "Arenah",
-      "url": "https://arenah-demo.herokuapp.com/",
+      "url": "https://arenah.colabs.dev",
       "github": "https://github.com/arturcp/arenah-rails",
       "description": {
         "paragraphs": [
           "Arenah is an RPG engine to allow people to play online. It started many years ago on Orkut, moved to a PHP forum and then moved to its own, full-fledged website.",
           "Version after version, it evolved to allow people to play in real time and to build the character sheets (including complex rules).",
-          "I have videos of the website. Take a look at <a href=\"https://arenah-demo.herokuapp.com/tour/jogadores\" target=\"_blank\">the player's area</a> and <a href=\"https://arenah-demo.herokuapp.com/tour/mestres\" target=\"_blank\">the game master's area</a>."
+          "I have videos of the website. Take a look at <a href=\"https://arenah.colabs.dev/tour/jogadores\" target=\"_blank\">the player's area</a> and <a href=\"https://arenah.colabs.dev/tour/mestres\" target=\"_blank\">the game master's area</a>."
         ]
       }
     },
@@ -165,7 +152,6 @@
     },
     {
       "name": "Jira WIP Plugin",
-      "url": "https://github.com/arturcp/jira-wip-plugin",
       "github": "https://github.com/arturcp/jira-wip-plugin",
       "preview": "jira-wip-plugin.png",
       "description": {
@@ -175,13 +161,20 @@
       }
     },
     {
-      "name": "Github Pull Requests - Chrome Plugin",
-      "url": "https://github.com/arturcp/pull-requests-api",
-      "github": "https://github.com/arturcp/pull-requests-plugin",
-      "preview": "pull-requests-plugin.png",
+      "name": "Legacy of Joran",
       "description": {
         "paragraphs": [
-          "Keep track of the pull requests of your favorite developers. This is a Chrome plugin and uses Heroku to host the API."
+          "I love to read and write, and I wrote a medieval fiction book that I intend to publish soon. I have been working hard to make this dream come true.",
+          "This project is the draft of the book's website, there are lots of things to improve, but it is going in the right direction."
+        ]
+      }
+    },
+    {
+      "name": "TED Ed puzzles",
+      "github": "https://github.com/arturcp/puzzles",
+      "description": {
+        "paragraphs": [
+          "<a href=\"https://ed.ted.com\" target=\"_blank\">TED Ed</a> is TED’s youth and education initiative. TED-Ed’s mission is to spark and celebrate the ideas of teachers and students around the world. Everything they do supports learning — from producing a growing library of original animated videos, to providing an international platform for teachers to create their own interactive lessons, to helping curious students around the globe bring TED to their schools and gain presentation literacy skills."
         ]
       }
     }
