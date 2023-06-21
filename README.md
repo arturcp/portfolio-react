@@ -16,13 +16,7 @@ yarn dev
 
 ## To deploy
 
-This project is configured to be deployed on dokku. To make the deploy work with Vite, we needed to add this env var to the app on Dokku:
-
-```
-dokku config:set portfolio NPM_CONFIG_PRODUCTION=false YARN_PRODUCTION=false
-```
-
-reference: https://stackoverflow.com/questions/68590569/heroku-deploy-with-vitejs-error-h10-vite-not-found
+This project is configured to be deployed on dokku. To make the deploy work with Vite, we needed to add [these changes](docs/deploy-vite.md)
 
 # Configure your git
 
