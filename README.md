@@ -16,7 +16,13 @@ yarn dev
 
 ## To deploy
 
-Some steps were taken to make the deploy work smoothly with dokku. You can find [the steps here]https://medium.com/@jascha.burmeister/build-and-deploy-static-vue-react-spa-on-dokku-bafc3d36301f).
+This project is configured to be deployed on dokku. To make the deploy work with Vite, we needed to add this env var to the app on Dokku:
+
+```
+dokku config:set portfolio NPM_CONFIG_PRODUCTION=false YARN_PRODUCTION=false
+```
+
+reference: https://stackoverflow.com/questions/68590569/heroku-deploy-with-vitejs-error-h10-vite-not-found
 
 # Configure your git
 
