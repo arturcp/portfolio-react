@@ -43,7 +43,7 @@ Here's an updated approach to deploy a Vite-based React project to Dokku:
      "test": "vite test",
      "lint": "vite lint",
      "predeploy": "npm run build",
-     "start": "http-server -p $PORT"
+     "start": "http-server ./dist -p $PORT"
    },
    ```
 
