@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Artur Caliendo Prado</title>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Artur Caliendo Prado" />
+    <meta name="keywords" content="website, webdeveloper, artur caliendo prado, portfolio, cv, speaker" />
+    <meta name="author" content="Artur Caliendo Prado" />
+
+    <link rel="shortcut icon" href="/images/favicon-32x32.png" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.4.3/css/flag-icon.min.css" integrity="sha256-NkXMfPcpoih3/xWDcrJcAX78pHpfwxkhNj0bAf8AMTs=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js" integrity="sha256-0rguYS0qgS6L4qVzANq4kjxPLtvnp5nn2nB5G1lWRv4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/classie/1.0.1/classie.min.js" integrity="sha256-6O5DljdGA6AiaEVC/Zn8pNLNbQGparYTI9091fGX64k=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/gh/mcstudios/glightbox/dist/js/glightbox.min.js"></script>
+  </head>
+  <body>
+    <div id="root"></div>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-125091942-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-125091942-1');
+    </script>
+
+
+    <script type="text/javascript">
+      document.addEventListener("DOMContentLoaded", function() {
+        const lightbox = GLightbox({
+          selector: "glightbox",
+        });
+      });
+    </script>
+    <script type="module" src="/src/main.jsx"></script>
+
+    <script type="module">
+      window.addEventListener("load", function () {
+        const script = document.createElement("script");
+        script.src =
+          "https://tympanus.net/Blueprints/SplitLayout/js/cbpSplitLayout.js";
+        document.body.appendChild(script);
+      });
+    </script>
+  </body>
+</html>

@@ -51,7 +51,7 @@
 
 .right {
   position: absolute;
-  right:: 0;
+  right: 0;
   z-index: 2;
   -webkit-transform: rotate(-10deg) translate(7px, 8px);
   -moz-transform: rotate(-10deg) translate(7px, 8px);
@@ -119,6 +119,7 @@
   -o-transform: rotate(5deg) translateX(-80px) scale(0.9);
   transform: rotate(5deg) translateX(-80px) scale(0.9);
 }
+
 /*-----*/
 .outer:active .calendarMain {
   -webkit-transform: scale(1.8);
@@ -223,6 +224,7 @@
 .month2 {
   color: $calendar-secondary-background-color;
 }
+
 /* -- usable codes end -- */
 
 /* -- unusable codes (text, logo, etc.) -- */
