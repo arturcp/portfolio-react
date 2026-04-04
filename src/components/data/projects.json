@@ -71,7 +71,7 @@
       "preview": "pull-requests-plugin.png",
       "description": {
         "paragraphs": [
-          "Keep track of the pull requests of your favorite developers. This is a Chrome plugin and uses Dokku to host the API."
+          "Keep track of the pull requests of your favorite developers."
         ]
       }
     },
